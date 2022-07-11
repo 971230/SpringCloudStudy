@@ -1,16 +1,16 @@
-package com.longj.springcloudstudy;
+package com.longj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author long
+ * @Author 龙江锋
+ * @Date 2022/7/11 21:17
+ * @Version 1.0
  */
 @SpringBootApplication
-public class SpringCloudStudyApplication {
-
+public class BookApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudStudyApplication.class, args);
+        SpringApplication.run(BookApplication.class, args);
     }
-
 }
