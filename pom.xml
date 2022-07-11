@@ -7,6 +7,7 @@
         <module>user-service</module>
         <module>book-service</module>
         <module>borrow-service</module>
+        <module>commons</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -46,6 +47,18 @@
             <version>8.0.29</version>
         </dependency>
     </dependencies>
+
+    <!--  由于不是所有的子项目都需要用到Mybatis，我们在父项目中只进行版本管理即可  -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>2.2.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <build>
         <plugins>
