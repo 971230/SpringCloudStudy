@@ -27,6 +27,7 @@ public class UserController {
      */
     @RequestMapping("/user/{uid}")
     public User findUserById(@PathVariable("uid") int uid) {
+        System.out.println("用户访问borrow服务时:UserController[findUserById]接口已调用");
         return service.getUserById(uid);
     }
 }
