@@ -16,3 +16,15 @@ eureka:
     service-url:
       # 将两个Eureka的地址都加入，这样就算有一个Eureka挂掉，也能完成注册
       defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
+
+# 开启熔断支持
+feign:
+  circuitbreaker:
+    enabled: true
+
+# 配置Actuator添加暴露,这样就可以使用监控面板监视该服务
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

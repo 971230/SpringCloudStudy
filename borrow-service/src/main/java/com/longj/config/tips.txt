@@ -1,0 +1,1 @@
+这两个类是没有添加OpenFeign负载均衡时，使用LoadBalancer实现负载均衡的写法
