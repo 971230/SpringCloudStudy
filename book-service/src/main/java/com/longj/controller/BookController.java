@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Author 龙江锋
@@ -20,7 +21,9 @@ public class BookController {
     BookService service;
 
     @RequestMapping("/book/{bid}")
-    Book findBookById(@PathVariable("bid") int bid) {
+    Book findBookById(@PathVariable("bid") int bid, HttpServletRequest servletRequest) {
+        // 测试 borrowservice 经过gateway转发过来后添加的请求头是否添加成功
+        System.out.println(servletRequest.getHeader("Test"));
         return service.getBookById(bid);
     }
 }
