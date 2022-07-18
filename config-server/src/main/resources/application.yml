@@ -1,0 +1,26 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        # 访问方式
+        # http://localhost:8700/{服务名称}/{环境}/{Git分支}
+        # http://localhost:8700/{Git分支}/{服务名称}-{环境}.yml
+        git:
+          # 这里填写的是本地仓库地址，远程仓库直接填写远程仓库地址 http://git...
+          # uri: file://${user.home}/Desktop/config-repo
+          uri: https://gitee.com/allanlong/config-repo.git
+          search-paths: #搜索目录
+            /
+          force-pull: true
+          username: 1014093588@qq.com
+          password: Longjf0614!@
+          # 默认分支设定为你自己本地或是远程分支的名称
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka

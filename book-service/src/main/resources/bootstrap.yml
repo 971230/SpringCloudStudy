@@ -1,0 +1,14 @@
+#现在我们的服务既然需要从服务器读取配置文件，那么就需要进行一些配置，我们删除原来的application.yml文件
+#（也可以保留，最后无论是远端配置还是本地配置都会被加载），改用bootstrap.yml（在application.yml之前加载，可以实现配置文件远程获取）
+spring:
+  cloud:
+    config:
+      # 名称，其实就是文件名称
+      name: bookservice
+      # 配置服务器的地址
+      uri: http://localhost:8700
+      # 环境
+      profile: dev
+      # profile: prod
+      # 分支
+      label: master
