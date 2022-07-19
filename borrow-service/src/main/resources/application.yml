@@ -7,3 +7,22 @@ spring:
     url: jdbc:mysql://localhost:3306/cloudstudy
     username: root
     password: root
+  # 应用名称 borrowservice
+  application:
+    name: borrow-service
+  cloud:
+    nacos:
+      discovery:
+        # 配置Nacos注册中心地址
+        server-addr: localhost:8848
+        # 将ephemeral修改为false，表示非临时实例
+        ephemeral: false
+        # 修改为杭州地区的集群,借阅服务将主要访问Hangzhou的服务器
+        cluster-name: Hangzhou
+          # 权重大小，越大越优先调用，默认为1(下面的负载均衡先去除),一般用于同一地区的不同实例
+          # 某些性能不太好的机器就能够更少地被使用，而更多的使用那些网络良好性能更高的主机上的实例。
+          # weight: 0.5
+    # 将loadbalancer的nacos支持开启，集成Nacos负载均衡
+    loadbalancer:
+      nacos:
+        enabled: true
