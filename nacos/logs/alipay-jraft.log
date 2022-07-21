@@ -82,3 +82,125 @@
 
 2022-07-21 21:32:18,772 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
 
+2022-07-21 21:36:59,017 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-07-21 21:36:59,017 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2022-07-21 21:36:59,017 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2022-07-21 21:41:20,719 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-07-21 21:41:20,719 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-07-21 21:41:20,719 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-07-21 21:43:32,924 INFO Node <naming_service_metadata/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-07-21 21:43:32,925 INFO Fail to find the next candidate.
+
+2022-07-21 21:43:32,925 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-07-21 21:43:32,927 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-07-21 21:43:32,927 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=5 ms
+
+2022-07-21 21:43:32,927 INFO Shutting down FSMCaller...
+
+2022-07-21 21:43:32,927 INFO onShutdown.
+
+2022-07-21 21:43:32,927 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@71ef655f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,927 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2890ed77[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO The number of active nodes decrement to 2.
+
+2022-07-21 21:43:32,927 INFO Node <naming_service_metadata/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-07-21 21:43:32,927 INFO Stop the RaftGroupService successfully.
+
+2022-07-21 21:43:32,927 INFO Node <naming_instance_metadata/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-07-21 21:43:32,927 INFO Fail to find the next candidate.
+
+2022-07-21 21:43:32,927 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-07-21 21:43:32,927 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-07-21 21:43:32,927 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=2 ms
+
+2022-07-21 21:43:32,927 INFO Shutting down FSMCaller...
+
+2022-07-21 21:43:32,927 INFO onShutdown.
+
+2022-07-21 21:43:32,927 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@2ce03e8d[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,927 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@269f937c[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,927 INFO Node <naming_instance_metadata/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-07-21 21:43:32,927 INFO Stop the RaftGroupService successfully.
+
+2022-07-21 21:43:32,927 INFO Node <naming_persistent_service_v2/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2022-07-21 21:43:32,927 INFO The number of active nodes decrement to 1.
+
+2022-07-21 21:43:32,927 INFO Fail to find the next candidate.
+
+2022-07-21 21:43:32,927 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2022-07-21 21:43:32,938 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-07-21 21:43:32,938 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=2 ms
+
+2022-07-21 21:43:32,938 INFO Shutting down FSMCaller...
+
+2022-07-21 21:43:32,938 INFO onShutdown.
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@50c23f04[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@50289e35[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2022-07-21 21:43:32,938 INFO The number of active nodes decrement to 0.
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@a1c53d8[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2022-07-21 21:43:32,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@4eab2a51[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2022-07-21 21:43:32,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@20b002ad[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1923].
+
+2022-07-21 21:43:32,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,938 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2e95f374[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2022-07-21 21:43:32,938 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/192.168.58.1:7848>'}.
+
+2022-07-21 21:43:32,938 INFO Node <naming_persistent_service_v2/192.168.58.1:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2022-07-21 21:43:32,938 INFO Stop the RaftGroupService successfully.
+
+2022-07-21 21:43:32,938 INFO Shutdown managed channel: 192.168.58.1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=192.168.58.1:7848}}.
+
+2022-07-21 21:43:32,944 INFO Connection disconnected: /192.168.58.1:5759
+
+2022-07-21 21:43:32,944 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@429d8f12[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1266].
+

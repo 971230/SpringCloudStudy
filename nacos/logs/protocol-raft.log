@@ -16,3 +16,9 @@
 
 2022-07-21 21:16:44,314 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.58.1:7848', term=1, raftClusterInfo=[192.168.58.1:7848]}
 
+2022-07-21 21:43:32,923 INFO shutdown jraft server
+
+2022-07-21 21:43:32,924 INFO ========= The raft protocol is starting to close =========
+
+2022-07-21 21:43:32,944 INFO ========= The raft protocol has been closed =========
+

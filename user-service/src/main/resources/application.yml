@@ -10,3 +10,4 @@ spring:
       discovery:
         # 配置Nacos注册中心地址
         server-addr: localhost:8848
+        namespace: 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09

@@ -17,6 +17,8 @@ spring:
         server-addr: localhost:8848
         # 将ephemeral修改为false，表示非临时实例
         ephemeral: false
+        # 调用到的服务(这里是book和user服务)的命名空间要一致,不然会报错
+        namespace: 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09
         # 修改为杭州地区的集群,借阅服务将主要访问Hangzhou的服务器
         cluster-name: Hangzhou
           # 权重大小，越大越优先调用，默认为1(下面的负载均衡先去除),一般用于同一地区的不同实例
