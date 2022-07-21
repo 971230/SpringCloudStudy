@@ -1,0 +1,56 @@
+2022-07-21 21:16:40,529 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-07-21 21:16:40,529 WARN Using naming.distro config to replace core.distro config
+
+2022-07-21 21:16:40,609 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-07-21 21:16:40,609 INFO listen for service meta change
+
+2022-07-21 21:16:40,614 INFO upgrade.state file is not exist
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-07-21 21:16:44,393 INFO Load instance extension handler []
+
+2022-07-21 21:19:28,645 INFO Client connection 192.168.126.1:53648#true connect
+
+2022-07-21 21:19:28,724 INFO Client connection 192.168.58.1:7070#true connect
+
+2022-07-21 21:19:28,724 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 192.168.58.1:7070#true
+
+2022-07-21 21:19:30,652 INFO Client connection 192.168.126.1:63399#true connect
+
+2022-07-21 21:19:30,715 INFO Client connection 192.168.58.1:7071#true connect
+
+2022-07-21 21:19:30,715 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 192.168.58.1:7071#true
+
+2022-07-21 21:26:51,501 INFO Client connection 192.168.126.1:51387#true connect
+
+2022-07-21 21:26:51,548 INFO Client connection 192.168.58.1:7073#true connect
+
+2022-07-21 21:26:51,548 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 192.168.58.1:7073#true
+
+2022-07-21 21:26:53,719 INFO Client connection 192.168.126.1:51388#true connect
+
+2022-07-21 21:26:53,767 INFO Client connection 192.168.58.1:7074#true connect
+
+2022-07-21 21:26:53,767 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 192.168.58.1:7074#true
+
+2022-07-21 21:26:55,653 INFO Client connection 192.168.126.1:57718#true connect
+
+2022-07-21 21:26:55,700 INFO Client connection 192.168.58.1:7075#true connect
+
+2022-07-21 21:26:55,700 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 192.168.58.1:7075#true
+
+2022-07-21 21:29:33,657 INFO Client connection 192.168.126.1:52938#true connect
+
+2022-07-21 21:29:33,718 INFO Client connection 192.168.58.1:7072#false connect
+
+2022-07-21 21:29:33,738 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 192.168.58.1:7072#false
+
