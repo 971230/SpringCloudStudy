@@ -28,3 +28,9 @@ spring:
     loadbalancer:
       nacos:
         enabled: true
+    sentinel:
+      transport:
+        # 添加监控页面地址即可
+        dashboard: localhost:8858
+      # 关闭Context收敛，这样被监控方法可以进行不同链路的单独控制
+      web-context-unify: false

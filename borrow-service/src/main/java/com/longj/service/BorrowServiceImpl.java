@@ -1,5 +1,6 @@
 package com.longj.service;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.longj.entity.Book;
 import com.longj.entity.Borrow;
 import com.longj.entity.User;
@@ -31,6 +32,11 @@ public class BorrowServiceImpl implements BorrowService {
     @Resource
     BookClient bookClient;
 
+    /**
+     * 精准限流:监控此方法，无论被谁执行都在监控范围内，这里给的value是自定义名称，这个注解可以加在任何方法上，
+     * 包括Controller中的请求映射方法，跟HystrixCommand贼像
+     */
+    @SentinelResource("details")
     @Override
     public BorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
