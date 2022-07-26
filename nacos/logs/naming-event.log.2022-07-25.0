@@ -1,0 +1,6 @@
+2022-07-25 18:49:05,858 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-25 18:49:08,156 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-25 20:59:48,125 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

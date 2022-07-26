@@ -1,0 +1,166 @@
+2022-07-21 21:16:40,529 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-07-21 21:16:40,529 WARN Using naming.distro config to replace core.distro config
+
+2022-07-21 21:16:40,609 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-07-21 21:16:40,609 INFO listen for service meta change
+
+2022-07-21 21:16:40,614 INFO upgrade.state file is not exist
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-07-21 21:16:43,826 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-07-21 21:16:44,393 INFO Load instance extension handler []
+
+2022-07-21 21:19:28,645 INFO Client connection 192.168.126.1:53648#true connect
+
+2022-07-21 21:19:28,724 INFO Client connection 192.168.58.1:7070#true connect
+
+2022-07-21 21:19:28,724 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 192.168.58.1:7070#true
+
+2022-07-21 21:19:30,652 INFO Client connection 192.168.126.1:63399#true connect
+
+2022-07-21 21:19:30,715 INFO Client connection 192.168.58.1:7071#true connect
+
+2022-07-21 21:19:30,715 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 192.168.58.1:7071#true
+
+2022-07-21 21:26:51,501 INFO Client connection 192.168.126.1:51387#true connect
+
+2022-07-21 21:26:51,548 INFO Client connection 192.168.58.1:7073#true connect
+
+2022-07-21 21:26:51,548 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 192.168.58.1:7073#true
+
+2022-07-21 21:26:53,719 INFO Client connection 192.168.126.1:51388#true connect
+
+2022-07-21 21:26:53,767 INFO Client connection 192.168.58.1:7074#true connect
+
+2022-07-21 21:26:53,767 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 192.168.58.1:7074#true
+
+2022-07-21 21:26:55,653 INFO Client connection 192.168.126.1:57718#true connect
+
+2022-07-21 21:26:55,700 INFO Client connection 192.168.58.1:7075#true connect
+
+2022-07-21 21:26:55,700 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 192.168.58.1:7075#true
+
+2022-07-21 21:29:33,657 INFO Client connection 192.168.126.1:52938#true connect
+
+2022-07-21 21:29:33,718 INFO Client connection 192.168.58.1:7072#false connect
+
+2022-07-21 21:29:33,738 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 192.168.58.1:7072#false
+
+2022-07-21 21:39:23,025 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 192.168.58.1:7070#true
+
+2022-07-21 21:39:23,135 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 192.168.58.1:7071#true
+
+2022-07-21 21:39:23,195 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 192.168.58.1:7073#true
+
+2022-07-21 21:39:23,225 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 192.168.58.1:7074#true
+
+2022-07-21 21:39:23,275 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 192.168.58.1:7075#true
+
+2022-07-21 21:39:23,299 WARN remove instance from non-exist client: 192.168.58.1:7072#true
+
+2022-07-21 21:39:26,184 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 192.168.58.1:7072#false
+
+2022-07-21 21:39:49,528 INFO Client connection 192.168.126.1:52677#true connect
+
+2022-07-21 21:39:49,573 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 192.168.58.1:7073#true
+
+2022-07-21 21:39:51,672 INFO Client connection 192.168.126.1:60009#true connect
+
+2022-07-21 21:39:51,719 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 192.168.58.1:7074#true
+
+2022-07-21 21:39:53,683 INFO Client connection 192.168.126.1:60010#true connect
+
+2022-07-21 21:39:53,727 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 192.168.58.1:7075#true
+
+2022-07-21 21:39:54,104 INFO Client connection 192.168.126.1:63399#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:54,104 INFO Client connection 192.168.126.1:51387#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:54,104 INFO Client connection 192.168.58.1:7071#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:54,104 INFO Client connection 192.168.126.1:53648#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:54,104 INFO Client connection 192.168.58.1:7070#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:59,108 INFO Client connection 192.168.126.1:51388#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:59,108 INFO Client connection 192.168.126.1:52938#true disconnect, remove instances and subscribers
+
+2022-07-21 21:39:59,108 INFO Client connection 192.168.126.1:57718#true disconnect, remove instances and subscribers
+
+2022-07-21 21:40:06,934 INFO Client connection 192.168.126.1:60011#true connect
+
+2022-07-21 21:40:06,997 INFO Client connection 192.168.58.1:7070#true connect
+
+2022-07-21 21:40:06,997 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 192.168.58.1:7070#true
+
+2022-07-21 21:40:09,015 INFO Client connection 192.168.126.1:57147#true connect
+
+2022-07-21 21:40:09,078 INFO Client connection 192.168.58.1:7071#true connect
+
+2022-07-21 21:40:09,078 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 192.168.58.1:7071#true
+
+2022-07-21 21:40:20,327 INFO Client connection 192.168.126.1:57148#true connect
+
+2022-07-21 21:40:20,396 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 192.168.58.1:7072#false
+
+2022-07-21 21:40:31,198 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, 192.168.58.1:7072#false
+
+2022-07-21 21:41:14,434 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2022-07-21 21:41:14,434 WARN namespace : public, [DEFAULT_GROUP@@book-service] services are automatically cleaned
+
+2022-07-21 21:43:18,392 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 192.168.58.1:7070#true
+
+2022-07-21 21:43:18,471 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 192.168.58.1:7071#true
+
+2022-07-21 21:43:18,549 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 192.168.58.1:7073#true
+
+2022-07-21 21:43:18,596 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 192.168.58.1:7074#true
+
+2022-07-21 21:43:18,622 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 192.168.58.1:7075#true
+
+2022-07-21 21:43:18,659 WARN remove instance from non-exist client: 192.168.58.1:7072#true
+
+2022-07-21 21:43:20,344 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, 192.168.58.1:7072#false
+
+2022-07-21 21:43:23,228 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 192.168.58.1:7072#false
+
+2022-07-21 21:43:32,907 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-07-21 21:43:32,907 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-07-21 21:43:34,575 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-21 21:43:34,575 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

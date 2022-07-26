@@ -1,0 +1,200 @@
+2022-07-25 18:48:54,649 INFO Starting Nacos v2.1.0 on LAPTOP-9TUQMBDN with PID 5088 (C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\target\nacos-server.jar started by long in C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos)
+
+2022-07-25 18:48:54,650 INFO The following profiles are active: standalone
+
+2022-07-25 18:48:57,222 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@525d79f0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-07-25 18:48:57,227 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-07-25 18:48:57,989 INFO Tomcat initialized with port(s): 8848 (http)
+
+2022-07-25 18:48:58,030 INFO Starting service [Tomcat]
+
+2022-07-25 18:48:58,030 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2022-07-25 18:48:58,415 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2022-07-25 18:48:58,457 INFO Initializing Spring embedded WebApplicationContext
+
+2022-07-25 18:48:58,458 INFO Root WebApplicationContext: initialization completed in 3774 ms
+
+2022-07-25 18:48:59,228 INFO Nacos-related cluster resource initialization
+
+2022-07-25 18:48:59,233 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2022-07-25 18:48:59,233 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2022-07-25 18:48:59,238 INFO The cluster resource is initialized
+
+2022-07-25 18:48:59,263 INFO Get Distro config from env, DistroConfig{syncDelayMillis=1000, syncTimeoutMillis=3000, syncRetryDelayMillis=3000, verifyIntervalMillis=5000, verifyTimeoutMillis=3000, loadDataRetryDelayMillis=30000}
+
+2022-07-25 18:48:59,907 INFO HikariPool-1 - Starting...
+
+2022-07-25 18:48:59,909 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2022-07-25 18:49:00,297 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2022-07-25 18:49:00,299 INFO HikariPool-1 - Start completed.
+
+2022-07-25 18:49:00,737 WARN There are no [com.alibaba.nacos.config.server.model.event.LocalDataChangeEvent] publishers for this event, please register
+
+2022-07-25 18:49:03,488 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-07-25 18:49:03,621 INFO Get Push config from env, PushConfig{pushTaskDelay=500, pushTaskTimeout=5000, pushTaskRetryDelay=1000}
+
+2022-07-25 18:49:03,632 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-07-25 18:49:03,990 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2022-07-25 18:49:04,023 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2015b2cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b0615ae, org.springframework.security.web.header.HeaderWriterFilter@7c9bdee9, org.springframework.security.web.csrf.CsrfFilter@624a24f6, org.springframework.security.web.authentication.logout.LogoutFilter@240f6c41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@221dad51, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2416498e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bdb2c78, org.springframework.security.web.session.SessionManagementFilter@2f98635e, org.springframework.security.web.access.ExceptionTranslationFilter@338cc75f]
+
+2022-07-25 18:49:04,100 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-07-25 18:49:04,126 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-07-25 18:49:04,214 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2022-07-25 18:49:04,217 INFO Started Nacos in 10.931 seconds (JVM running for 11.475)
+
+2022-07-25 18:49:04,218 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2022-07-25 18:49:54,939 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2022-07-25 18:49:54,939 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-07-25 18:49:54,948 INFO Completed initialization in 8 ms
+
+2022-07-25 18:59:00,771 WARN clearConfigHistory start
+
+2022-07-25 18:59:00,772 WARN clearConfigHistory, getBeforeStamp:2022-06-25 18:59:00.0, pageSize:1000
+
+2022-07-25 18:59:01,005 INFO [capacityManagement] start correct usage
+
+2022-07-25 18:59:01,014 INFO [capacityManagement] end correct usage, cost: 0.009s
+
+2022-07-25 19:09:00,805 WARN clearConfigHistory start
+
+2022-07-25 19:09:00,805 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:09:00.0, pageSize:1000
+
+2022-07-25 19:09:01,024 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:09:01,024 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 19:19:00,808 WARN clearConfigHistory start
+
+2022-07-25 19:19:00,808 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:19:00.0, pageSize:1000
+
+2022-07-25 19:19:01,040 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:19:01,041 INFO [capacityManagement] end correct usage, cost: 0.001s
+
+2022-07-25 19:29:00,812 WARN clearConfigHistory start
+
+2022-07-25 19:29:00,812 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:29:00.0, pageSize:1000
+
+2022-07-25 19:29:01,052 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:29:01,052 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 19:39:00,815 WARN clearConfigHistory start
+
+2022-07-25 19:39:00,815 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:39:00.0, pageSize:1000
+
+2022-07-25 19:39:01,056 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:39:01,056 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 19:49:00,819 WARN clearConfigHistory start
+
+2022-07-25 19:49:00,819 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:49:00.0, pageSize:1000
+
+2022-07-25 19:49:01,057 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:49:01,057 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 19:59:00,823 WARN clearConfigHistory start
+
+2022-07-25 19:59:00,824 WARN clearConfigHistory, getBeforeStamp:2022-06-25 19:59:00.0, pageSize:1000
+
+2022-07-25 19:59:01,060 INFO [capacityManagement] start correct usage
+
+2022-07-25 19:59:01,060 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 20:09:00,828 WARN clearConfigHistory start
+
+2022-07-25 20:09:00,828 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:09:00.0, pageSize:1000
+
+2022-07-25 20:09:01,061 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:09:01,061 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 20:19:00,831 WARN clearConfigHistory start
+
+2022-07-25 20:19:00,831 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:19:00.0, pageSize:1000
+
+2022-07-25 20:19:01,063 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:19:01,064 INFO [capacityManagement] end correct usage, cost: 0.001s
+
+2022-07-25 20:29:00,835 WARN clearConfigHistory start
+
+2022-07-25 20:29:00,835 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:29:00.0, pageSize:1000
+
+2022-07-25 20:29:01,068 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:29:01,068 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 20:39:00,836 WARN clearConfigHistory start
+
+2022-07-25 20:39:00,836 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:39:00.0, pageSize:1000
+
+2022-07-25 20:39:01,071 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:39:01,071 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 20:49:00,838 WARN clearConfigHistory start
+
+2022-07-25 20:49:00,838 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:49:00.0, pageSize:1000
+
+2022-07-25 20:49:01,075 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:49:01,076 INFO [capacityManagement] end correct usage, cost: 0.001s
+
+2022-07-25 20:59:00,842 WARN clearConfigHistory start
+
+2022-07-25 20:59:00,843 WARN clearConfigHistory, getBeforeStamp:2022-06-25 20:59:00.0, pageSize:1000
+
+2022-07-25 20:59:01,080 INFO [capacityManagement] start correct usage
+
+2022-07-25 20:59:01,080 INFO [capacityManagement] end correct usage, cost: 0.0s
+
+2022-07-25 20:59:46,031 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2022-07-25 20:59:46,030 WARN [NotifyCenter] Start destroying Publisher
+
+2022-07-25 20:59:46,030 WARN [WatchFileCenter] start close
+
+2022-07-25 20:59:46,032 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2022-07-25 20:59:46,032 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2022-07-25 20:59:46,032 WARN [NotifyCenter] Destruction of the end
+
+2022-07-25 20:59:46,032 WARN [WatchFileCenter] start to shutdown this watcher which is watch : C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\tps
+
+2022-07-25 20:59:46,032 WARN [WatchFileCenter] start to shutdown this watcher which is watch : C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\conf
+
+2022-07-25 20:59:46,033 WARN [WatchFileCenter] start to shutdown this watcher which is watch : C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\loader
+
+2022-07-25 20:59:46,034 WARN [WatchFileCenter] already closed
+
+2022-07-25 20:59:46,036 WARN [HttpClientBeanHolder] Destruction of the end
+
+2022-07-25 20:59:46,036 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2022-07-25 20:59:46,048 INFO Shutting down ExecutorService 'taskScheduler'
+
+2022-07-25 20:59:46,050 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2022-07-25 20:59:48,781 WARN [ThreadPoolManager] Destruction of the end
+
