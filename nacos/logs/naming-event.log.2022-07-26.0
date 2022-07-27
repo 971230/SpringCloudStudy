@@ -1,0 +1,24 @@
+2022-07-26 19:54:15,034 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-26 19:54:17,385 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-26 20:11:51,095 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-26 20:11:53,541 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-26 20:14:47,718 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-07-26 20:56:46,491 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-26 20:56:47,498 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-26 20:56:48,771 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 169.254.197.45:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-26 21:10:42,537 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-26 21:10:43,554 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-26 21:10:44,816 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 169.254.197.45:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-26 21:11:21,169 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
