@@ -1,606 +1,822 @@
-2022-07-26 19:57:14,449 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}
+2022-07-27 19:15:08,842 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}
 
-2022-07-26 19:57:14,941 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:15:09,314 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 19:57:14,965 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:64172, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,64172,125510780900300
+2022-07-27 19:15:09,335 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 192.168.126.1:50002, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50002,1365413533700
 
-2022-07-26 19:57:14,966 INFO send udp packet: 169.254.197.45,64172,125510780900300
+2022-07-27 19:15:09,336 INFO send udp packet: 192.168.126.1,50002,1365413533700
 
-2022-07-26 19:57:14,988 INFO [PUSH-SUCC] 47ms, all delay time 612ms, SLA 539ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 19:15:09,363 INFO [PUSH-SUCC] 49ms, all delay time 634ms, SLA 521ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, DataSize=1, target=192.168.126.1
 
-2022-07-26 19:57:16,279 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
+2022-07-27 19:15:10,769 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
 
-2022-07-26 19:57:16,793 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:15:11,231 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 19:57:16,793 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:64172, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,64172,125512631689700
+2022-07-27 19:15:11,232 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 192.168.126.1:50002, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50002,1367329418500
 
-2022-07-26 19:57:16,794 INFO send udp packet: 169.254.197.45,64172,125512631689700
+2022-07-27 19:15:11,232 INFO send udp packet: 192.168.126.1,50002,1367329418500
 
-2022-07-26 19:57:16,794 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:15:11,232 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 19:57:16,794 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:64173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,64173,125512632695100
+2022-07-27 19:15:11,233 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 192.168.126.1:50003, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50003,1367330454900
 
-2022-07-26 19:57:16,794 INFO send udp packet: 169.254.197.45,64173,125512632695100
+2022-07-27 19:15:11,233 INFO send udp packet: 192.168.126.1,50003,1367330454900
 
-2022-07-26 19:57:16,795 INFO [PUSH-SUCC] 2ms, all delay time 570ms, SLA 516ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:15:11,234 INFO [PUSH-SUCC] 3ms, all delay time 534ms, SLA 465ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=192.168.126.1
 
-2022-07-26 19:57:16,816 INFO [PUSH-SUCC] 22ms, all delay time 591ms, SLA 537ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:15:11,257 INFO [PUSH-SUCC] 25ms, all delay time 557ms, SLA 488ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=192.168.126.1
 
-2022-07-26 20:04:48,260 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}
+2022-07-27 19:15:28,202 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}
 
-2022-07-26 20:04:48,780 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:28,651 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:48,780 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:65086, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,65086,125964619190800
+2022-07-27 19:15:28,651 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57740, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57740,1384749219200
 
-2022-07-26 20:04:48,781 INFO send udp packet: 169.254.197.45,65086,125964619190800
+2022-07-27 19:15:28,652 INFO send udp packet: 192.168.126.1,57740,1384749219200
 
-2022-07-26 20:04:48,805 INFO [PUSH-SUCC] 25ms, all delay time 599ms, SLA 545ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 19:15:28,677 INFO [PUSH-SUCC] 26ms, all delay time 540ms, SLA 475ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:04:50,900 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
+2022-07-27 19:15:30,950 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
 
-2022-07-26 20:04:51,427 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:31,410 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:51,427 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:65086, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,65086,125967266025000
+2022-07-27 19:15:31,410 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57740, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57740,1387508308900
 
-2022-07-26 20:04:51,428 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:31,411 INFO send udp packet: 192.168.126.1,57740,1387508308900
 
-2022-07-26 20:04:51,428 INFO send udp packet: 169.254.197.45,65086,125967266025000
+2022-07-27 19:15:31,411 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:51,428 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:49501, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49501,125967266652100
+2022-07-27 19:15:31,413 INFO [PUSH-SUCC] 3ms, all delay time 528ms, SLA 464ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=192.168.126.1
 
-2022-07-26 20:04:51,428 INFO send udp packet: 169.254.197.45,49501,125967266652100
+2022-07-27 19:15:31,413 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 192.168.126.1:57741, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57741,1387509670000
 
-2022-07-26 20:04:51,429 INFO [PUSH-SUCC] 2ms, all delay time 577ms, SLA 529ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:15:31,413 INFO send udp packet: 192.168.126.1,57741,1387509670000
 
-2022-07-26 20:04:51,445 INFO [PUSH-SUCC] 17ms, all delay time 593ms, SLA 545ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:15:31,438 INFO [PUSH-SUCC] 27ms, all delay time 553ms, SLA 489ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=192.168.126.1
 
-2022-07-26 20:04:52,934 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}
+2022-07-27 19:15:33,952 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}
 
-2022-07-26 20:04:53,441 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:34,390 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:53,442 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:49502, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49502,125969279627800
+2022-07-27 19:15:34,392 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57740, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57740,1390488065700
 
-2022-07-26 20:04:53,442 INFO send udp packet: 169.254.197.45,49502,125969279627800
+2022-07-27 19:15:34,393 INFO send udp packet: 192.168.126.1,57740,1390488065700
 
-2022-07-26 20:04:53,442 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:34,393 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:53,443 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:65086, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,65086,125969281209700
+2022-07-27 19:15:34,393 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 192.168.126.1:57741, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57741,1390491579000
 
-2022-07-26 20:04:53,443 INFO send udp packet: 169.254.197.45,65086,125969281209700
+2022-07-27 19:15:34,393 INFO send udp packet: 192.168.126.1,57741,1390491579000
 
-2022-07-26 20:04:53,443 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:15:34,393 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:04:53,443 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:49501, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49501,125969281941500
+2022-07-27 19:15:34,394 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57742, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57742,1390491989600
 
-2022-07-26 20:04:53,443 INFO send udp packet: 169.254.197.45,49501,125969281941500
+2022-07-27 19:15:34,394 INFO send udp packet: 192.168.126.1,57742,1390491989600
 
-2022-07-26 20:04:53,445 INFO [PUSH-SUCC] 2ms, all delay time 569ms, SLA 511ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:15:34,395 INFO [PUSH-SUCC] 2ms, all delay time 551ms, SLA 443ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=192.168.126.1
 
-2022-07-26 20:04:53,446 INFO [PUSH-SUCC] 4ms, all delay time 570ms, SLA 512ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:15:34,397 INFO [PUSH-SUCC] 7ms, all delay time 553ms, SLA 445ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=192.168.126.1
 
-2022-07-26 20:04:53,447 INFO [PUSH-SUCC] 6ms, all delay time 571ms, SLA 513ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:15:34,400 INFO [PUSH-SUCC] 7ms, all delay time 556ms, SLA 448ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=192.168.126.1
 
-2022-07-26 20:04:57,212 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:15:57,013 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:04:57,213 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60615, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60615,125973051630600
+2022-07-27 19:15:57,015 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61728, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61728,1413112746700
 
-2022-07-26 20:04:57,213 INFO send udp packet: 169.254.197.45,60615,125973051630600
+2022-07-27 19:15:57,015 INFO send udp packet: 192.168.126.1,61728,1413112746700
 
-2022-07-26 20:04:57,218 INFO [PUSH-SUCC] 6ms, all delay time 583ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, DataSize=0
+2022-07-27 19:15:57,021 INFO [PUSH-SUCC] 8ms, all delay time 585ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, DataSize=1
 
-2022-07-26 20:05:18,276 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:17:24,455 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
 
-2022-07-26 20:05:18,276 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:57906, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,57906,125994115229500
+2022-07-27 19:19:46,388 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
 
-2022-07-26 20:05:18,276 INFO send udp packet: 169.254.197.45,57906,125994115229500
+2022-07-27 19:19:46,457 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
 
-2022-07-26 20:05:18,280 INFO [PUSH-SUCC] 4ms, all delay time 573ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, DataSize=0
+2022-07-27 19:19:46,580 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}
 
-2022-07-26 20:06:16,037 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:20:19,229 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}
 
-2022-07-26 20:06:16,037 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:63723, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,63723,126051875865800
+2022-07-27 19:20:19,665 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:06:16,038 INFO send udp packet: 169.254.197.45,63723,126051875865800
+2022-07-27 19:20:19,678 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:53610, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,53610,1675763374200
 
-2022-07-26 20:06:16,042 INFO [PUSH-SUCC] 5ms, all delay time 607ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, DataSize=0
+2022-07-27 19:20:19,679 INFO send udp packet: 192.168.126.1,53610,1675763374200
 
-2022-07-26 20:06:39,768 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}
+2022-07-27 19:20:19,711 INFO [PUSH-SUCC] 47ms, all delay time 560ms, SLA 482ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:06:39,802 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}
+2022-07-27 19:20:24,921 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:06:40,277 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:20:24,925 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57740, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57740,1681019854900
 
-2022-07-26 20:06:40,277 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:49502, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49502,126076116193700
+2022-07-27 19:20:24,925 INFO send udp packet: 192.168.126.1,57740,1681019854900
 
-2022-07-26 20:06:40,277 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:20:24,927 INFO [PUSH-SUCC] 6ms, all delay time 608ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:06:40,277 INFO send udp packet: 169.254.197.45,49502,126076116193700
+2022-07-27 19:20:25,466 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:06:40,278 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:65086, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,65086,126076116827800
+2022-07-27 19:20:25,467 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 192.168.126.1:50002, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50002,1681564165400
 
-2022-07-26 20:06:40,278 INFO send udp packet: 169.254.197.45,65086,126076116827800
+2022-07-27 19:20:25,467 INFO send udp packet: 192.168.126.1,50002,1681564165400
 
-2022-07-26 20:06:40,278 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:20:25,469 INFO [PUSH-SUCC] 3ms, all delay time 542ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:06:40,279 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:49501, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49501,126076117891200
+2022-07-27 19:20:27,359 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:06:40,279 INFO send udp packet: 169.254.197.45,49501,126076117891200
+2022-07-27 19:20:27,362 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 192.168.126.1:50003, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50003,1683458983100
 
-2022-07-26 20:06:40,281 INFO [PUSH-SUCC] 4ms, all delay time 594ms, SLA 479ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:20:27,362 INFO send udp packet: 192.168.126.1,50003,1683458983100
 
-2022-07-26 20:06:40,281 INFO [PUSH-SUCC] 3ms, all delay time 594ms, SLA 479ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:20:27,367 INFO [PUSH-SUCC] 8ms, all delay time 510ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:06:40,282 INFO [PUSH-SUCC] 5ms, all delay time 595ms, SLA 480ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:20:27,469 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:06:54,459 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}
+2022-07-27 19:20:27,470 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 192.168.126.1:57741, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57741,1683566857500
 
-2022-07-26 20:06:54,921 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:20:27,470 INFO send udp packet: 192.168.126.1,57741,1683566857500
 
-2022-07-26 20:06:54,921 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:64172, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,64172,126090760005000
+2022-07-27 19:20:27,474 INFO [PUSH-SUCC] 5ms, all delay time 572ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:06:54,921 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:20:30,564 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:06:54,921 INFO send udp packet: 169.254.197.45,64172,126090760005000
+2022-07-27 19:20:30,568 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57742, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57742,1686662215900
 
-2022-07-26 20:06:54,922 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:64173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,64173,126090760198500
+2022-07-27 19:20:30,568 INFO send udp packet: 192.168.126.1,57742,1686662215900
 
-2022-07-26 20:06:54,922 INFO send udp packet: 169.254.197.45,64173,126090760198500
+2022-07-27 19:20:30,571 INFO [PUSH-SUCC] 7ms, all delay time 547ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:06:54,924 INFO [PUSH-SUCC] 3ms, all delay time 527ms, SLA 465ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=169.254.197.45
+2022-07-27 19:20:38,955 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:06:54,924 INFO [PUSH-SUCC] 3ms, all delay time 527ms, SLA 465ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=169.254.197.45
+2022-07-27 19:20:38,956 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:53610, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,53610,1695052859200
 
-2022-07-26 20:07:31,784 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:20:38,957 INFO send udp packet: 192.168.126.1,53610,1695052859200
 
-2022-07-26 20:07:31,784 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:54012, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,54012,126127622800900
+2022-07-27 19:20:38,961 INFO [PUSH-SUCC] 6ms, all delay time 591ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:07:31,784 INFO send udp packet: 169.254.197.45,54012,126127622800900
+2022-07-27 19:20:39,608 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:07:31,790 INFO [PUSH-SUCC] 6ms, all delay time 574ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, DataSize=0
+2022-07-27 19:20:39,609 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:53610, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,53610,1695705913300
 
-2022-07-26 20:07:59,606 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}
+2022-07-27 19:20:39,609 INFO send udp packet: 192.168.126.1,53610,1695705913300
 
-2022-07-26 20:08:00,135 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:20:39,615 INFO [PUSH-SUCC] 7ms, all delay time 544ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:08:00,135 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:53173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,53173,126155973864000
+2022-07-27 19:23:43,934 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:00,135 INFO send udp packet: 169.254.197.45,53173,126155973864000
+2022-07-27 19:23:43,935 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:53610, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,53610,1880031981800
 
-2022-07-26 20:08:00,151 INFO [PUSH-SUCC] 16ms, all delay time 590ms, SLA 545ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 19:23:43,935 INFO send udp packet: 192.168.126.1,53610,1880031981800
 
-2022-07-26 20:08:01,899 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
+2022-07-27 19:23:43,940 INFO [PUSH-SUCC] 6ms, all delay time 520ms, SLA 520ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:08:02,358 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:23:59,075 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}
 
-2022-07-26 20:08:02,358 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:56995, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,56995,126158196833800
+2022-07-27 19:23:59,547 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:02,358 INFO send udp packet: 169.254.197.45,56995,126158196833800
+2022-07-27 19:23:59,547 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:53610, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,53610,1895644665300
 
-2022-07-26 20:08:02,358 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:23:59,547 INFO send udp packet: 192.168.126.1,53610,1895644665300
 
-2022-07-26 20:08:02,360 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:53173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,53173,126158198624800
+2022-07-27 19:23:59,548 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:02,360 INFO send udp packet: 169.254.197.45,53173,126158198624800
+2022-07-27 19:23:59,548 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61039,1895645572800
 
-2022-07-26 20:08:02,361 INFO [PUSH-SUCC] 3ms, all delay time 515ms, SLA 462ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:23:59,548 INFO send udp packet: 192.168.126.1,61039,1895645572800
 
-2022-07-26 20:08:02,375 INFO [PUSH-SUCC] 17ms, all delay time 529ms, SLA 476ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:23:59,553 INFO [PUSH-SUCC] 6ms, all delay time 530ms, SLA 478ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:08:03,813 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}
+2022-07-27 19:24:09,552 INFO retry to push data, key: 192.168.126.1,53610,1895644665300
 
-2022-07-26 20:08:04,359 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:24:17,711 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:08:04,359 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:56996, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,56996,126160198008100
+2022-07-27 19:24:17,711 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:61039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61039,1913809029900
 
-2022-07-26 20:08:04,359 INFO send udp packet: 169.254.197.45,56996,126160198008100
+2022-07-27 19:24:17,711 INFO send udp packet: 192.168.126.1,61039,1913809029900
 
-2022-07-26 20:08:04,359 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:24:17,715 INFO [PUSH-SUCC] 4ms, all delay time 549ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:08:04,360 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:56995, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,56995,126160199066400
+2022-07-27 19:24:17,812 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:08:04,360 INFO send udp packet: 169.254.197.45,56995,126160199066400
+2022-07-27 19:24:17,812 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:61039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61039,1913909452600
 
-2022-07-26 20:08:04,360 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:24:17,812 INFO send udp packet: 192.168.126.1,61039,1913909452600
 
-2022-07-26 20:08:04,361 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:53173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,53173,126160199661500
+2022-07-27 19:24:17,814 INFO [PUSH-SUCC] 3ms, all delay time 581ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:08:04,361 INFO send udp packet: 169.254.197.45,53173,126160199661500
+2022-07-27 19:24:19,557 WARN max re-push times reached, retry times 2, key: 192.168.126.1,53610,1895644665300
 
-2022-07-26 20:08:04,361 INFO [PUSH-SUCC] 2ms, all delay time 602ms, SLA 549ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:24:19,558 ERROR [PUSH-FAIL] 20011ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, reason=null, target=192.168.126.1
 
-2022-07-26 20:08:04,364 INFO [PUSH-SUCC] 4ms, all delay time 605ms, SLA 552ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:31:39,179 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:04,365 INFO [PUSH-SUCC] 6ms, all delay time 606ms, SLA 553ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:31:39,181 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61039,2355278449400
 
-2022-07-26 20:08:20,433 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}
+2022-07-27 19:31:39,181 INFO send udp packet: 192.168.126.1,61039,2355278449400
 
-2022-07-26 20:08:20,987 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:31:39,188 INFO [PUSH-SUCC] 9ms, all delay time 574ms, SLA 574ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=4}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:08:20,987 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:59370, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,59370,126176826028000
+2022-07-27 19:31:54,496 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=5}
 
-2022-07-26 20:08:20,987 INFO send udp packet: 169.254.197.45,59370,126176826028000
+2022-07-27 19:31:54,961 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:21,002 INFO [PUSH-SUCC] 14ms, all delay time 621ms, SLA 568ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}, DataSize=1, target=169.254.197.45
+2022-07-27 19:31:54,961 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56039,2371058614200
 
-2022-07-26 20:08:22,474 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}
+2022-07-27 19:31:54,961 INFO send udp packet: 192.168.126.1,56039,2371058614200
 
-2022-07-26 20:08:23,010 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:31:54,961 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:08:23,010 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:59371, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,59371,126178848908300
+2022-07-27 19:31:54,961 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61039,2371059429900
 
-2022-07-26 20:08:23,010 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:31:54,961 INFO send udp packet: 192.168.126.1,61039,2371059429900
 
-2022-07-26 20:08:23,010 INFO send udp packet: 169.254.197.45,59371,126178848908300
+2022-07-27 19:31:54,967 INFO [PUSH-SUCC] 6ms, all delay time 526ms, SLA 471ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=5}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:08:23,010 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:59370, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,59370,126178849106600
+2022-07-27 19:32:04,971 INFO retry to push data, key: 192.168.126.1,61039,2371059429900
 
-2022-07-26 20:08:23,011 INFO send udp packet: 169.254.197.45,59370,126178849106600
+2022-07-27 19:32:14,982 WARN max re-push times reached, retry times 2, key: 192.168.126.1,61039,2371059429900
 
-2022-07-26 20:08:23,012 INFO [PUSH-SUCC] 2ms, all delay time 599ms, SLA 538ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, DataSize=2, target=169.254.197.45
+2022-07-27 19:32:14,982 ERROR [PUSH-FAIL] 20021ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=5}, reason=null, target=192.168.126.1
 
-2022-07-26 20:08:23,025 INFO [PUSH-SUCC] 15ms, all delay time 612ms, SLA 551ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, DataSize=2, target=169.254.197.45
+2022-07-27 19:32:22,437 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:08:40,885 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:32:22,437 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:08:40,885 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:58539, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,58539,126196723959700
+2022-07-27 19:32:22,438 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:56039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56039,2398535914400
 
-2022-07-26 20:08:40,885 INFO send udp packet: 169.254.197.45,58539,126196723959700
+2022-07-27 19:32:22,438 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:56039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56039,2398535749500
 
-2022-07-26 20:08:40,889 INFO [PUSH-SUCC] 4ms, all delay time 520ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, DataSize=0
+2022-07-27 19:32:22,438 INFO send udp packet: 192.168.126.1,56039,2398535914400
 
-2022-07-26 20:09:06,797 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}
+2022-07-27 19:32:22,440 INFO send udp packet: 192.168.126.1,56039,2398535749500
 
-2022-07-26 20:09:07,297 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:32:22,443 INFO [PUSH-SUCC] 6ms, all delay time 510ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:09:07,297 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:59371, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,59371,126223135603400
+2022-07-27 19:32:22,447 INFO [PUSH-SUCC] 10ms, all delay time 586ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:09:07,297 INFO send udp packet: 169.254.197.45,59371,126223135603400
+2022-07-27 19:38:21,678 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:09:07,297 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:38:21,679 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56039,2757775884700
 
-2022-07-26 20:09:07,298 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:59370, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,59370,126223136068800
+2022-07-27 19:38:21,679 INFO send udp packet: 192.168.126.1,56039,2757775884700
 
-2022-07-26 20:09:07,298 INFO send udp packet: 169.254.197.45,59370,126223136068800
+2022-07-27 19:38:21,683 INFO [PUSH-SUCC] 5ms, all delay time 563ms, SLA 563ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=6}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:09:07,301 INFO [PUSH-SUCC] 4ms, all delay time 537ms, SLA 504ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}, DataSize=0, target=169.254.197.45
+2022-07-27 19:38:32,690 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=7}
 
-2022-07-26 20:09:07,301 INFO [PUSH-SUCC] 4ms, all delay time 537ms, SLA 504ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}, DataSize=0, target=169.254.197.45
+2022-07-27 19:38:33,145 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:09:08,160 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}
+2022-07-27 19:38:33,145 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56039, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56039,2769242751400
 
-2022-07-26 20:09:08,195 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}
+2022-07-27 19:38:33,145 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:09:08,717 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:38:33,145 INFO send udp packet: 192.168.126.1,56039,2769242751400
 
-2022-07-26 20:09:08,718 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:56996, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,56996,126224556235200
+2022-07-27 19:38:33,147 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:50861, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50861,2769243106500
 
-2022-07-26 20:09:08,718 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:38:33,147 INFO send udp packet: 192.168.126.1,50861,2769243106500
 
-2022-07-26 20:09:08,718 INFO send udp packet: 169.254.197.45,56996,126224556235200
+2022-07-27 19:38:33,150 INFO [PUSH-SUCC] 5ms, all delay time 505ms, SLA 460ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=7}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:09:08,718 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:56995, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,56995,126224556681800
+2022-07-27 19:38:43,161 INFO retry to push data, key: 192.168.126.1,56039,2769242751400
 
-2022-07-26 20:09:08,719 INFO send udp packet: 169.254.197.45,56995,126224556681800
+2022-07-27 19:38:53,177 WARN max re-push times reached, retry times 2, key: 192.168.126.1,56039,2769242751400
 
-2022-07-26 20:09:08,719 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:38:53,177 ERROR [PUSH-FAIL] 20032ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=7}, reason=null, target=192.168.126.1
 
-2022-07-26 20:09:08,719 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:53173, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,53173,126224557882700
+2022-07-27 19:41:16,553 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:09:08,719 INFO send udp packet: 169.254.197.45,53173,126224557882700
+2022-07-27 19:41:16,553 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:09:08,721 INFO [PUSH-SUCC] 4ms, all delay time 608ms, SLA 526ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:41:16,553 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:50861, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50861,2932650710200
 
-2022-07-26 20:09:08,721 INFO [PUSH-SUCC] 3ms, all delay time 608ms, SLA 526ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:41:16,553 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:50861, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50861,2932650729700
 
-2022-07-26 20:09:08,722 INFO [PUSH-SUCC] 3ms, all delay time 609ms, SLA 527ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 19:41:16,554 INFO send udp packet: 192.168.126.1,50861,2932650710200
 
-2022-07-26 20:12:10,653 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}
+2022-07-27 19:41:16,554 INFO send udp packet: 192.168.126.1,50861,2932650729700
 
-2022-07-26 20:12:11,195 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:41:16,556 INFO [PUSH-SUCC] 3ms, all delay time 553ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:12:11,203 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:52576, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52576,126407033799400
+2022-07-27 19:41:16,557 INFO [PUSH-SUCC] 4ms, all delay time 515ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:12:11,204 INFO send udp packet: 169.254.197.45,52576,126407033799400
+2022-07-27 19:43:40,145 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:11,223 INFO [PUSH-SUCC] 28ms, all delay time 633ms, SLA 570ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 19:43:40,146 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:50861, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50861,3076243606900
 
-2022-07-26 20:12:12,679 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
+2022-07-27 19:43:40,146 INFO send udp packet: 192.168.126.1,50861,3076243606900
 
-2022-07-26 20:12:13,209 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:43:40,151 INFO [PUSH-SUCC] 6ms, all delay time 565ms, SLA 565ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=8}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:12:13,209 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:52577, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52577,126409048206100
+2022-07-27 19:43:51,106 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=9}
 
-2022-07-26 20:12:13,210 INFO send udp packet: 169.254.197.45,52577,126409048206100
+2022-07-27 19:43:51,573 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:13,210 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:43:51,573 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56138, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56138,3087671107100
 
-2022-07-26 20:12:13,210 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:52576, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52576,126409049079800
+2022-07-27 19:43:51,573 INFO send udp packet: 192.168.126.1,56138,3087671107100
 
-2022-07-26 20:12:13,210 INFO send udp packet: 169.254.197.45,52576,126409049079800
+2022-07-27 19:43:51,573 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:13,212 INFO [PUSH-SUCC] 2ms, all delay time 591ms, SLA 533ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:43:51,574 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:50861, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50861,3087671921300
 
-2022-07-26 20:12:13,225 INFO [PUSH-SUCC] 16ms, all delay time 604ms, SLA 546ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:43:51,574 INFO send udp packet: 192.168.126.1,50861,3087671921300
 
-2022-07-26 20:12:31,226 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}
+2022-07-27 19:43:51,578 INFO [PUSH-SUCC] 5ms, all delay time 510ms, SLA 472ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=9}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:12:31,677 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:44:01,591 INFO retry to push data, key: 192.168.126.1,50861,3087671921300
 
-2022-07-26 20:12:31,677 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,126427516273300
+2022-07-27 19:44:11,596 WARN max re-push times reached, retry times 2, key: 192.168.126.1,50861,3087671921300
 
-2022-07-26 20:12:31,677 INFO send udp packet: 169.254.197.45,50768,126427516273300
+2022-07-27 19:44:11,596 ERROR [PUSH-FAIL] 20023ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=9}, reason=null, target=192.168.126.1
 
-2022-07-26 20:12:31,694 INFO [PUSH-SUCC] 17ms, all delay time 519ms, SLA 468ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 19:44:19,574 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:12:33,434 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
+2022-07-27 19:44:19,575 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:56138, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56138,3115672277000
 
-2022-07-26 20:12:33,905 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:44:19,575 INFO send udp packet: 192.168.126.1,56138,3115672277000
 
-2022-07-26 20:12:33,906 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,126429743902500
+2022-07-27 19:44:19,578 INFO [PUSH-SUCC] 4ms, all delay time 528ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:12:33,906 INFO send udp packet: 169.254.197.45,50768,126429743902500
+2022-07-27 19:44:19,686 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:12:33,906 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:44:19,686 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:56138, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56138,3115784257800
 
-2022-07-26 20:12:33,907 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:50527, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50527,126429745711300
+2022-07-27 19:44:19,686 INFO send udp packet: 192.168.126.1,56138,3115784257800
 
-2022-07-26 20:12:33,907 INFO send udp packet: 169.254.197.45,50527,126429745711300
+2022-07-27 19:44:19,689 INFO [PUSH-SUCC] 3ms, all delay time 598ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:12:33,908 INFO [PUSH-SUCC] 3ms, all delay time 528ms, SLA 474ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:54:07,312 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:33,922 INFO [PUSH-SUCC] 16ms, all delay time 542ms, SLA 488ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:54:07,312 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56138, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56138,3703410436600
 
-2022-07-26 20:12:35,314 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}
+2022-07-27 19:54:07,313 INFO send udp packet: 192.168.126.1,56138,3703410436600
 
-2022-07-26 20:12:35,825 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:54:07,318 INFO [PUSH-SUCC] 6ms, all delay time 522ms, SLA 522ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=10}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:12:35,827 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,126431663517100
+2022-07-27 19:54:18,259 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=11}
 
-2022-07-26 20:12:35,827 INFO send udp packet: 169.254.197.45,50768,126431663517100
+2022-07-27 19:54:18,746 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:35,827 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:54:18,746 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56138, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56138,3714843383700
 
-2022-07-26 20:12:35,828 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:50527, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50527,126431666201600
+2022-07-27 19:54:18,746 INFO send udp packet: 192.168.126.1,56138,3714843383700
 
-2022-07-26 20:12:35,828 INFO send udp packet: 169.254.197.45,50527,126431666201600
+2022-07-27 19:54:18,746 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:12:35,828 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:54:18,747 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59537, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59537,3714843832300
 
-2022-07-26 20:12:35,828 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50969, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50969,126431666722400
+2022-07-27 19:54:18,747 INFO send udp packet: 192.168.126.1,59537,3714843832300
 
-2022-07-26 20:12:35,828 INFO send udp packet: 169.254.197.45,50969,126431666722400
+2022-07-27 19:54:18,751 INFO [PUSH-SUCC] 5ms, all delay time 530ms, SLA 492ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=11}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:12:35,829 INFO [PUSH-SUCC] 2ms, all delay time 568ms, SLA 515ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:54:28,753 INFO retry to push data, key: 192.168.126.1,56138,3714843383700
 
-2022-07-26 20:12:35,831 INFO [PUSH-SUCC] 6ms, all delay time 570ms, SLA 517ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:54:38,777 WARN max re-push times reached, retry times 2, key: 192.168.126.1,56138,3714843383700
 
-2022-07-26 20:12:35,834 INFO [PUSH-SUCC] 6ms, all delay time 573ms, SLA 520ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 19:54:38,778 ERROR [PUSH-FAIL] 20032ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=11}, reason=null, target=192.168.126.1
 
-2022-07-26 20:12:51,169 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:54:39,838 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:12:51,169 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:49443, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,49443,126447007649500
+2022-07-27 19:54:39,838 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:59537, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59537,3735936437400
 
-2022-07-26 20:12:51,169 INFO send udp packet: 169.254.197.45,49443,126447007649500
+2022-07-27 19:54:39,838 INFO send udp packet: 192.168.126.1,59537,3735936437400
 
-2022-07-26 20:12:51,173 INFO [PUSH-SUCC] 4ms, all delay time 562ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, DataSize=0
+2022-07-27 19:54:39,841 INFO [PUSH-SUCC] 3ms, all delay time 527ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:13:25,077 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 19:54:39,952 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:13:25,077 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:57165, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,57165,126480915954100
+2022-07-27 19:54:39,952 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:59537, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59537,3736049576100
 
-2022-07-26 20:13:25,078 INFO send udp packet: 169.254.197.45,57165,126480915954100
+2022-07-27 19:54:39,952 INFO send udp packet: 192.168.126.1,59537,3736049576100
 
-2022-07-26 20:13:25,083 INFO [PUSH-SUCC] 6ms, all delay time 612ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, DataSize=0
+2022-07-27 19:54:39,954 INFO [PUSH-SUCC] 2ms, all delay time 597ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:15:48,335 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
+2022-07-27 19:59:16,681 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:48,423 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
+2022-07-27 19:59:16,681 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59537, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59537,4012779007200
 
-2022-07-26 20:15:48,433 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}
+2022-07-27 19:59:16,681 INFO send udp packet: 192.168.126.1,59537,4012779007200
 
-2022-07-26 20:15:48,530 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
+2022-07-27 19:59:16,685 INFO [PUSH-SUCC] 4ms, all delay time 576ms, SLA 576ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=12}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:15:48,541 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}
+2022-07-27 19:59:27,875 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=13}
 
-2022-07-26 20:15:48,857 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 19:59:28,344 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:48,857 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:59:28,344 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59144, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59144,4024441546000
 
-2022-07-26 20:15:48,866 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:52577, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52577,126624695605300
+2022-07-27 19:59:28,344 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:48,866 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,126624695602100
+2022-07-27 19:59:28,344 INFO send udp packet: 192.168.126.1,59144,4024441546000
 
-2022-07-26 20:15:48,867 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 19:59:28,344 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59537, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59537,4024441729100
 
-2022-07-26 20:15:48,868 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:52576, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52576,126624705714800
+2022-07-27 19:59:28,345 INFO send udp packet: 192.168.126.1,59537,4024441729100
 
-2022-07-26 20:15:48,868 INFO send udp packet: 169.254.197.45,50768,126624695602100
+2022-07-27 19:59:28,348 INFO [PUSH-SUCC] 4ms, all delay time 522ms, SLA 473ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=13}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:15:48,869 INFO send udp packet: 169.254.197.45,52577,126624695605300
+2022-07-27 19:59:38,347 INFO retry to push data, key: 192.168.126.1,59537,4024441729100
 
-2022-07-26 20:15:48,870 INFO send udp packet: 169.254.197.45,52576,126624705714800
+2022-07-27 19:59:48,357 WARN max re-push times reached, retry times 2, key: 192.168.126.1,59537,4024441729100
 
-2022-07-26 20:15:48,887 INFO [PUSH-SUCC] 31ms, all delay time 552ms, SLA 358ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 19:59:48,357 ERROR [PUSH-FAIL] 20013ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=13}, reason=null, target=192.168.126.1
 
-2022-07-26 20:15:48,900 INFO [PUSH-SUCC] 44ms, all delay time 566ms, SLA 566ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 20:00:14,781 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:48,900 INFO [PUSH-SUCC] 33ms, all delay time 566ms, SLA 566ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2, target=169.254.197.45
+2022-07-27 20:00:14,781 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59144, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59144,4070879389900
 
-2022-07-26 20:15:49,722 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:00:14,782 INFO send udp packet: 192.168.126.1,59144,4070879389900
 
-2022-07-26 20:15:49,722 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:50527, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50527,126625561070500
+2022-07-27 20:00:14,786 INFO [PUSH-SUCC] 5ms, all delay time 594ms, SLA 594ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=14}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:15:49,723 INFO send udp packet: 169.254.197.45,50527,126625561070500
+2022-07-27 20:00:25,544 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=15}
 
-2022-07-26 20:15:49,724 INFO [PUSH-SUCC] 2ms, all delay time 525ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, DataSize=2
+2022-07-27 20:00:26,044 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:51,905 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:00:26,044 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:59144, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,59144,4082141790200
 
-2022-07-26 20:15:51,907 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,126627744318200
+2022-07-27 20:00:26,044 INFO send udp packet: 192.168.126.1,59144,4082141790200
 
-2022-07-26 20:15:51,907 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:00:26,044 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:15:51,907 INFO send udp packet: 169.254.197.45,50768,126627744318200
+2022-07-27 20:00:26,045 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:54382, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,54382,4082142194600
 
-2022-07-26 20:15:51,908 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:50527, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50527,126627745652700
+2022-07-27 20:00:26,045 INFO send udp packet: 192.168.126.1,54382,4082142194600
 
-2022-07-26 20:15:51,908 INFO send udp packet: 169.254.197.45,50527,126627745652700
+2022-07-27 20:00:26,049 INFO [PUSH-SUCC] 5ms, all delay time 549ms, SLA 505ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=15}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:15:51,909 INFO [PUSH-SUCC] 2ms, all delay time 591ms, SLA 591ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 20:00:36,062 INFO retry to push data, key: 192.168.126.1,59144,4082141790200
 
-2022-07-26 20:15:51,909 INFO [PUSH-SUCC] 4ms, all delay time 591ms, SLA 591ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3, target=169.254.197.45
+2022-07-27 20:00:46,074 WARN max re-push times reached, retry times 2, key: 192.168.126.1,59144,4082141790200
 
-2022-07-26 20:16:06,506 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}
+2022-07-27 20:00:46,074 ERROR [PUSH-FAIL] 20030ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=15}, reason=null, target=192.168.126.1
 
-2022-07-26 20:16:06,980 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 20:17:16,758 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:16:06,981 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60264, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60264,126642818323400
+2022-07-27 20:17:16,758 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:54382, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,54382,5092856174000
 
-2022-07-26 20:16:06,981 INFO send udp packet: 169.254.197.45,60264,126642818323400
+2022-07-27 20:17:16,758 INFO send udp packet: 192.168.126.1,54382,5092856174000
 
-2022-07-26 20:16:06,998 INFO [PUSH-SUCC] 18ms, all delay time 546ms, SLA 492ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, DataSize=1, target=169.254.197.45
+2022-07-27 20:17:16,761 INFO [PUSH-SUCC] 3ms, all delay time 546ms, SLA 546ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=16}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:16:17,778 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:17:28,051 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=17}
 
-2022-07-26 20:16:17,779 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50969, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50969,126653617073400
+2022-07-27 20:17:28,541 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:16:17,779 INFO send udp packet: 169.254.197.45,50969,126653617073400
+2022-07-27 20:17:28,541 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:54382, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,54382,5104639190000
 
-2022-07-26 20:16:17,781 INFO [PUSH-SUCC] 3ms, all delay time 514ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
+2022-07-27 20:17:28,541 INFO send udp packet: 192.168.126.1,54382,5104639190000
 
-2022-07-26 20:17:39,209 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:17:28,541 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:17:39,210 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 169.254.197.45:60264, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60264,126735047459500
+2022-07-27 20:17:28,543 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51064, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51064,5104641014700
 
-2022-07-26 20:17:39,210 INFO send udp packet: 169.254.197.45,60264,126735047459500
+2022-07-27 20:17:28,543 INFO send udp packet: 192.168.126.1,51064,5104641014700
 
-2022-07-26 20:17:39,212 INFO [PUSH-SUCC] 3ms, all delay time 571ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
+2022-07-27 20:17:28,547 INFO [PUSH-SUCC] 6ms, all delay time 540ms, SLA 496ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=17}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:17:39,646 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 20:17:38,545 INFO retry to push data, key: 192.168.126.1,54382,5104639190000
 
-2022-07-26 20:17:39,648 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 169.254.197.45:60264, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60264,126735484720400
+2022-07-27 20:17:48,549 WARN max re-push times reached, retry times 2, key: 192.168.126.1,54382,5104639190000
 
-2022-07-26 20:17:39,648 INFO send udp packet: 169.254.197.45,60264,126735484720400
+2022-07-27 20:17:48,549 ERROR [PUSH-FAIL] 20008ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=17}, reason=null, target=192.168.126.1
 
-2022-07-26 20:17:39,650 INFO [PUSH-SUCC] 4ms, all delay time 589ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
+2022-07-27 20:19:14,379 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 20:56:49,342 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 20:19:14,379 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
 
-2022-07-26 20:56:49,343 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60264, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60264,129085181300500
+2022-07-27 20:19:14,380 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:51064, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51064,5210476952900
 
-2022-07-26 20:56:49,343 INFO send udp packet: 169.254.197.45,60264,129085181300500
+2022-07-27 20:19:14,380 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:51064, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51064,5210477202500
 
-2022-07-26 20:56:49,346 INFO [PUSH-SUCC] 4ms, all delay time 575ms, SLA 575ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, DataSize=1, target=169.254.197.45
+2022-07-27 20:19:14,380 INFO send udp packet: 192.168.126.1,51064,5210476952900
 
-2022-07-26 20:57:03,663 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}
+2022-07-27 20:19:14,381 INFO send udp packet: 192.168.126.1,51064,5210477202500
 
-2022-07-26 20:57:04,201 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 20:19:14,384 INFO [PUSH-SUCC] 5ms, all delay time 558ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 20:57:04,201 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60264, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60264,129100039677800
+2022-07-27 20:19:14,384 INFO [PUSH-SUCC] 5ms, all delay time 521ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
 
-2022-07-26 20:57:04,201 INFO send udp packet: 169.254.197.45,60264,129100039677800
+2022-07-27 20:21:11,304 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:57:04,201 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 20:21:11,304 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51064, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51064,5327401691400
 
-2022-07-26 20:57:04,202 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129100040629200
+2022-07-27 20:21:11,305 INFO send udp packet: 192.168.126.1,51064,5327401691400
 
-2022-07-26 20:57:04,202 INFO send udp packet: 169.254.197.45,60183,129100040629200
+2022-07-27 20:21:11,310 INFO [PUSH-SUCC] 6ms, all delay time 541ms, SLA 541ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=18}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:57:04,207 INFO [PUSH-SUCC] 6ms, all delay time 589ms, SLA 544ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, DataSize=1, target=169.254.197.45
+2022-07-27 20:21:22,466 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=19}
 
-2022-07-26 20:57:14,215 INFO retry to push data, key: 169.254.197.45,60264,129100039677800
+2022-07-27 20:21:23,016 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:57:24,217 WARN max re-push times reached, retry times 2, key: 169.254.197.45,60264,129100039677800
+2022-07-27 20:21:23,016 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:60450, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,60450,5339113959100
 
-2022-07-26 20:57:24,217 ERROR [PUSH-FAIL] 20016ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, reason=null, target=169.254.197.45
+2022-07-27 20:21:23,016 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 20:57:39,803 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 20:21:23,016 INFO send udp packet: 192.168.126.1,60450,5339113959100
 
-2022-07-26 20:57:39,803 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:21:23,017 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51064, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51064,5339114254000
 
-2022-07-26 20:57:39,803 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129135642128600
+2022-07-27 20:21:23,017 INFO send udp packet: 192.168.126.1,51064,5339114254000
 
-2022-07-26 20:57:39,803 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129135642104600
+2022-07-27 20:21:23,021 INFO [PUSH-SUCC] 5ms, all delay time 599ms, SLA 555ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=19}, DataSize=1, target=192.168.126.1
 
-2022-07-26 20:57:39,804 INFO send udp packet: 169.254.197.45,60183,129135642128600
+2022-07-27 20:21:33,029 INFO retry to push data, key: 192.168.126.1,51064,5339114254000
 
-2022-07-26 20:57:39,804 INFO send udp packet: 169.254.197.45,60183,129135642104600
+2022-07-27 20:21:43,045 WARN max re-push times reached, retry times 2, key: 192.168.126.1,51064,5339114254000
 
-2022-07-26 20:57:39,806 INFO [PUSH-SUCC] 3ms, all delay time 597ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
+2022-07-27 20:21:43,045 ERROR [PUSH-FAIL] 20029ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=19}, reason=null, target=192.168.126.1
 
-2022-07-26 20:57:39,809 INFO [PUSH-SUCC] 6ms, all delay time 560ms for subscriber 169.254.197.45, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
+2022-07-27 20:22:54,976 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
 
-2022-07-26 21:10:45,339 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+2022-07-27 20:22:54,976 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:60450, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,60450,5431073919500
 
-2022-07-26 21:10:45,339 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129921177395100
+2022-07-27 20:22:54,976 INFO send udp packet: 192.168.126.1,60450,5431073919500
 
-2022-07-26 21:10:45,339 INFO send udp packet: 169.254.197.45,60183,129921177395100
+2022-07-27 20:22:54,980 INFO [PUSH-SUCC] 4ms, all delay time 545ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
 
-2022-07-26 21:10:45,345 INFO [PUSH-SUCC] 7ms, all delay time 529ms, SLA 529ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=4}, DataSize=1, target=169.254.197.45
+2022-07-27 20:28:58,042 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:10:54,986 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}
+2022-07-27 20:28:58,042 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:60450, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,60450,5794140002900
 
-2022-07-26 21:10:55,036 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}
+2022-07-27 20:28:58,042 INFO send udp packet: 192.168.126.1,60450,5794140002900
 
-2022-07-26 21:10:55,448 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:28:58,044 INFO [PUSH-SUCC] 2ms, all delay time 591ms, SLA 591ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=20}, DataSize=1, target=192.168.126.1
 
-2022-07-26 21:10:55,448 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50768, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50768,129931287240200
+2022-07-27 20:29:07,290 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=21}
 
-2022-07-26 21:10:55,448 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:29:07,758 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:10:55,448 INFO send udp packet: 169.254.197.45,50768,129931287240200
+2022-07-27 20:29:07,758 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:60450, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,60450,5803855741900
 
-2022-07-26 21:10:55,449 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 169.254.197.45:50527, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50527,129931287551700
+2022-07-27 20:29:07,758 INFO send udp packet: 192.168.126.1,60450,5803855741900
 
-2022-07-26 21:10:55,449 INFO send udp packet: 169.254.197.45,50527,129931287551700
+2022-07-27 20:29:07,758 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:10:55,449 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:29:07,759 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56303, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56303,5803856585000
 
-2022-07-26 21:10:55,449 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129931288436400
+2022-07-27 20:29:07,759 INFO send udp packet: 192.168.126.1,56303,5803856585000
 
-2022-07-26 21:10:55,449 INFO send udp packet: 169.254.197.45,60183,129931288436400
+2022-07-27 20:29:07,763 INFO [PUSH-SUCC] 5ms, all delay time 517ms, SLA 473ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=21}, DataSize=1, target=192.168.126.1
 
-2022-07-26 21:10:55,449 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+2022-07-27 20:29:17,760 INFO retry to push data, key: 192.168.126.1,60450,5803855741900
 
-2022-07-26 21:10:55,450 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 169.254.197.45:50969, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,50969,129931288755300
+2022-07-27 20:29:27,763 WARN max re-push times reached, retry times 2, key: 192.168.126.1,60450,5803855741900
 
-2022-07-26 21:10:55,450 INFO send udp packet: 169.254.197.45,50969,129931288755300
+2022-07-27 20:29:27,763 ERROR [PUSH-FAIL] 20005ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=21}, reason=null, target=192.168.126.1
 
-2022-07-26 21:10:55,451 INFO [PUSH-SUCC] 3ms, all delay time 526ms, SLA 415ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 20:40:10,723 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:10:55,452 INFO [PUSH-SUCC] 4ms, all delay time 527ms, SLA 416ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 20:40:10,723 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56303, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56303,6466821497200
 
-2022-07-26 21:10:55,453 INFO [PUSH-SUCC] 4ms, all delay time 528ms, SLA 417ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=169.254.197.45
+2022-07-27 20:40:10,723 INFO send udp packet: 192.168.126.1,56303,6466821497200
 
-2022-07-26 21:11:05,450 INFO retry to push data, key: 169.254.197.45,60183,129931288436400
+2022-07-27 20:40:10,727 INFO [PUSH-SUCC] 4ms, all delay time 529ms, SLA 529ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=22}, DataSize=1, target=192.168.126.1
 
-2022-07-26 21:11:07,439 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}
+2022-07-27 20:40:21,180 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=23}
 
-2022-07-26 21:11:07,962 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 20:40:21,728 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:11:07,962 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 169.254.197.45:52577, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52577,129943800698900
+2022-07-27 20:40:21,728 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:56303, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,56303,6477826368200
 
-2022-07-26 21:11:07,962 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 20:40:21,728 INFO send udp packet: 192.168.126.1,56303,6477826368200
 
-2022-07-26 21:11:07,962 INFO send udp packet: 169.254.197.45,52577,129943800698900
+2022-07-27 20:40:21,728 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:11:07,962 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 169.254.197.45:52576, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,52576,129943800983900
+2022-07-27 20:40:21,729 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51823, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51823,6477826844100
 
-2022-07-26 21:11:07,963 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+2022-07-27 20:40:21,729 INFO send udp packet: 192.168.126.1,51823,6477826844100
 
-2022-07-26 21:11:07,964 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 169.254.197.45:60183, agent: Nacos-Java-Client:v1.4.2, key: 169.254.197.45,60183,129943802174900
+2022-07-27 20:40:21,734 INFO [PUSH-SUCC] 6ms, all delay time 601ms, SLA 554ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=23}, DataSize=1, target=192.168.126.1
 
-2022-07-26 21:11:07,964 INFO send udp packet: 169.254.197.45,52576,129943800983900
+2022-07-27 20:40:31,740 INFO retry to push data, key: 192.168.126.1,56303,6477826368200
 
-2022-07-26 21:11:07,964 INFO send udp packet: 169.254.197.45,60183,129943802174900
+2022-07-27 20:40:41,743 WARN max re-push times reached, retry times 2, key: 192.168.126.1,56303,6477826368200
 
-2022-07-26 21:11:07,966 INFO [PUSH-SUCC] 4ms, all delay time 566ms, SLA 527ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=169.254.197.45
+2022-07-27 20:40:41,743 ERROR [PUSH-FAIL] 20015ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=23}, reason=null, target=192.168.126.1
 
-2022-07-26 21:11:07,967 INFO [PUSH-SUCC] 5ms, all delay time 567ms, SLA 528ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=169.254.197.45
+2022-07-27 20:41:48,155 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
 
-2022-07-26 21:11:15,475 WARN max re-push times reached, retry times 2, key: 169.254.197.45,60183,129931288436400
+2022-07-27 20:41:48,155 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51823, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51823,6564252860600
 
-2022-07-26 21:11:15,475 ERROR [PUSH-FAIL] 20026ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, reason=null, target=169.254.197.45
+2022-07-27 20:41:48,155 INFO send udp packet: 192.168.126.1,51823,6564252860600
 
-2022-07-26 21:11:17,972 INFO retry to push data, key: 169.254.197.45,60183,129943802174900
+2022-07-27 20:41:48,163 INFO [PUSH-SUCC] 8ms, all delay time 569ms, SLA 569ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=24}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:41:58,899 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=25}
+
+2022-07-27 20:41:59,364 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:41:59,364 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61353, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61353,6575461987300
+
+2022-07-27 20:41:59,364 INFO send udp packet: 192.168.126.1,61353,6575461987300
+
+2022-07-27 20:41:59,364 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:41:59,365 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:51823, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,51823,6575462782600
+
+2022-07-27 20:41:59,365 INFO send udp packet: 192.168.126.1,51823,6575462782600
+
+2022-07-27 20:41:59,369 INFO [PUSH-SUCC] 5ms, all delay time 509ms, SLA 470ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=25}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:42:09,381 INFO retry to push data, key: 192.168.126.1,51823,6575462782600
+
+2022-07-27 20:42:19,383 WARN max re-push times reached, retry times 2, key: 192.168.126.1,51823,6575462782600
+
+2022-07-27 20:42:19,383 ERROR [PUSH-FAIL] 20019ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=25}, reason=null, target=192.168.126.1
+
+2022-07-27 20:47:19,670 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:47:19,671 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61353, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61353,6895768403400
+
+2022-07-27 20:47:19,671 INFO send udp packet: 192.168.126.1,61353,6895768403400
+
+2022-07-27 20:47:19,674 INFO [PUSH-SUCC] 4ms, all delay time 514ms, SLA 514ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=26}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:47:30,578 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=27}
+
+2022-07-27 20:47:31,143 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:47:31,143 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:63547, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,63547,6907241172000
+
+2022-07-27 20:47:31,143 INFO send udp packet: 192.168.126.1,63547,6907241172000
+
+2022-07-27 20:47:31,143 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:47:31,144 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61353, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61353,6907242098200
+
+2022-07-27 20:47:31,145 INFO send udp packet: 192.168.126.1,61353,6907242098200
+
+2022-07-27 20:47:31,148 INFO [PUSH-SUCC] 5ms, all delay time 613ms, SLA 570ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=27}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:47:41,166 INFO retry to push data, key: 192.168.126.1,61353,6907242098200
+
+2022-07-27 20:47:51,175 WARN max re-push times reached, retry times 2, key: 192.168.126.1,61353,6907242098200
+
+2022-07-27 20:47:51,175 ERROR [PUSH-FAIL] 20032ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=27}, reason=null, target=192.168.126.1
+
+2022-07-27 20:49:53,670 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:49:53,670 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:63547, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,63547,7049768387100
+
+2022-07-27 20:49:53,670 INFO send udp packet: 192.168.126.1,63547,7049768387100
+
+2022-07-27 20:49:53,674 INFO [PUSH-SUCC] 4ms, all delay time 558ms, SLA 558ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=28}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:50:03,881 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=29}
+
+2022-07-27 20:50:04,349 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:50:04,349 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:63547, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,63547,7060446561300
+
+2022-07-27 20:50:04,349 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:50:04,349 INFO send udp packet: 192.168.126.1,63547,7060446561300
+
+2022-07-27 20:50:04,349 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61871, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61871,7060446735600
+
+2022-07-27 20:50:04,351 INFO send udp packet: 192.168.126.1,61871,7060446735600
+
+2022-07-27 20:50:04,354 INFO [PUSH-SUCC] 5ms, all delay time 514ms, SLA 473ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=29}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:50:14,354 INFO retry to push data, key: 192.168.126.1,63547,7060446561300
+
+2022-07-27 20:50:24,370 WARN max re-push times reached, retry times 2, key: 192.168.126.1,63547,7060446561300
+
+2022-07-27 20:50:24,370 ERROR [PUSH-FAIL] 20021ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=29}, reason=null, target=192.168.126.1
+
+2022-07-27 20:54:07,525 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:54:07,525 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61871, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61871,7303623550900
+
+2022-07-27 20:54:07,526 INFO send udp packet: 192.168.126.1,61871,7303623550900
+
+2022-07-27 20:54:07,530 INFO [PUSH-SUCC] 5ms, all delay time 611ms, SLA 611ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=30}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:54:16,523 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=31}
+
+2022-07-27 20:54:17,091 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:54:17,091 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:55594, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,55594,7313188995200
+
+2022-07-27 20:54:17,091 INFO send udp packet: 192.168.126.1,55594,7313188995200
+
+2022-07-27 20:54:17,091 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 20:54:17,092 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:61871, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,61871,7313189855800
+
+2022-07-27 20:54:17,092 INFO send udp packet: 192.168.126.1,61871,7313189855800
+
+2022-07-27 20:54:17,096 INFO [PUSH-SUCC] 5ms, all delay time 612ms, SLA 573ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=31}, DataSize=1, target=192.168.126.1
+
+2022-07-27 20:54:27,105 INFO retry to push data, key: 192.168.126.1,61871,7313189855800
+
+2022-07-27 20:54:37,109 WARN max re-push times reached, retry times 2, key: 192.168.126.1,61871,7313189855800
+
+2022-07-27 20:54:37,109 ERROR [PUSH-FAIL] 20018ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=31}, reason=null, target=192.168.126.1
+
+2022-07-27 21:02:16,506 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 21:02:16,506 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:55594, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,55594,7792603478000
+
+2022-07-27 21:02:16,506 INFO send udp packet: 192.168.126.1,55594,7792603478000
+
+2022-07-27 21:02:16,509 INFO [PUSH-SUCC] 3ms, all delay time 557ms, SLA 557ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=32}, DataSize=1, target=192.168.126.1
+
+2022-07-27 21:02:55,821 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=33}
+
+2022-07-27 21:02:56,340 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 21:02:56,340 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7832437778400
+
+2022-07-27 21:02:56,340 INFO send udp packet: 192.168.126.1,57515,7832437778400
+
+2022-07-27 21:02:56,345 INFO [PUSH-SUCC] 5ms, all delay time 573ms, SLA 525ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=33}, DataSize=1, target=192.168.126.1
+
+2022-07-27 21:03:08,892 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-07-27 21:03:08,892 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-07-27 21:03:08,893 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7844990355600
+
+2022-07-27 21:03:08,893 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7844990624100
+
+2022-07-27 21:03:08,893 INFO send udp packet: 192.168.126.1,57515,7844990355600
+
+2022-07-27 21:03:08,894 INFO send udp packet: 192.168.126.1,57515,7844990624100
+
+2022-07-27 21:03:08,895 INFO [PUSH-SUCC] 3ms, all delay time 567ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, DataSize=3
+
+2022-07-27 21:03:08,896 INFO [PUSH-SUCC] 4ms, all delay time 529ms for subscriber 192.168.126.1, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, DataSize=2
+
+2022-07-27 21:03:33,293 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}
+
+2022-07-27 21:03:33,349 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}
+
+2022-07-27 21:03:33,783 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-07-27 21:03:33,783 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57740, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57740,7869880537700
+
+2022-07-27 21:03:33,783 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-07-27 21:03:33,783 INFO send udp packet: 192.168.126.1,57740,7869880537700
+
+2022-07-27 21:03:33,783 INFO serviceName: DEFAULT_GROUP@@user-service@@Guangzhou changed, schedule push for: 192.168.126.1:57741, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57741,7869880766800
+
+2022-07-27 21:03:33,784 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-07-27 21:03:33,784 INFO serviceName: DEFAULT_GROUP@@user-service@@Hangzhou changed, schedule push for: 192.168.126.1:57742, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57742,7869881867400
+
+2022-07-27 21:03:33,784 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-07-27 21:03:33,784 INFO send udp packet: 192.168.126.1,57741,7869880766800
+
+2022-07-27 21:03:33,785 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7869882116800
+
+2022-07-27 21:03:33,785 INFO send udp packet: 192.168.126.1,57742,7869881867400
+
+2022-07-27 21:03:33,785 INFO send udp packet: 192.168.126.1,57515,7869882116800
+
+2022-07-27 21:03:33,787 INFO [PUSH-SUCC] 4ms, all delay time 517ms, SLA 438ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:03:33,787 INFO [PUSH-SUCC] 3ms, all delay time 517ms, SLA 438ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:03:33,787 INFO [PUSH-SUCC] 4ms, all delay time 517ms, SLA 438ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:03:33,789 INFO [PUSH-SUCC] 5ms, all delay time 519ms, SLA 440ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:05:00,895 INFO [PUSH] Task merge for Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}
+
+2022-07-27 21:05:01,383 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-07-27 21:05:01,383 INFO serviceName: DEFAULT_GROUP@@book-service@@Hangzhou changed, schedule push for: 192.168.126.1:50002, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50002,7957480455300
+
+2022-07-27 21:05:01,383 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-07-27 21:05:01,383 INFO send udp packet: 192.168.126.1,50002,7957480455300
+
+2022-07-27 21:05:01,383 INFO serviceName: DEFAULT_GROUP@@book-service@@Guangzhou changed, schedule push for: 192.168.126.1:50003, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,50003,7957481017500
+
+2022-07-27 21:05:01,384 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-07-27 21:05:01,384 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7957481844200
+
+2022-07-27 21:05:01,384 INFO send udp packet: 192.168.126.1,50003,7957481017500
+
+2022-07-27 21:05:01,385 INFO send udp packet: 192.168.126.1,57515,7957481844200
+
+2022-07-27 21:05:01,388 INFO [PUSH-SUCC] 5ms, all delay time 538ms, SLA 493ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:05:01,388 INFO [PUSH-SUCC] 4ms, all delay time 538ms, SLA 493ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:05:01,389 INFO [PUSH-SUCC] 6ms, all delay time 539ms, SLA 494ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, DataSize=0, target=192.168.126.1
+
+2022-07-27 21:05:17,021 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-07-27 21:05:17,021 INFO serviceName: DEFAULT_GROUP@@borrow-service@@Hangzhou changed, schedule push for: 192.168.126.1:57515, agent: Nacos-Java-Client:v1.4.2, key: 192.168.126.1,57515,7973119422300
+
+2022-07-27 21:05:17,021 INFO send udp packet: 192.168.126.1,57515,7973119422300
+
+2022-07-27 21:05:17,026 INFO [PUSH-SUCC] 5ms, all delay time 568ms, SLA 568ms, Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=34}, DataSize=1, target=192.168.126.1
 

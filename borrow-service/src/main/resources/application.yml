@@ -34,3 +34,9 @@ spring:
         dashboard: localhost:8858
       # 关闭Context收敛，这样被监控方法可以进行不同链路的单独控制
       web-context-unify: false
+      # 将刚刚编写的请求映射设定为限流页面
+      block-page: /blocked
+#让Feign的也支持Sentinel
+feign:
+  sentinel:
+    enabled: true
