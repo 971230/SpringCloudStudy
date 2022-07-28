@@ -1,0 +1,112 @@
+2022-07-27 19:14:14,303 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 1, msg: tcp:error:Network is unreachable: no further information
+
+2022-07-27 19:14:18,083 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 169.254.197.45:7072@Hangzhou in 2, msg: tcp:error:Network is unreachable: no further information
+
+2022-07-27 19:16:39,071 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-07-27 19:17:28,754 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-07-27 19:23:41,145 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:23:42,147 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:23:43,420 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 19:31:36,341 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:31:37,358 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:31:38,614 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 19:38:18,847 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:38:19,857 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:38:21,120 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 19:43:37,295 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:43:38,303 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:43:39,586 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 19:54:04,544 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:54:05,554 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:54:06,796 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 19:59:13,829 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 19:59:14,840 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 19:59:16,109 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:00:11,921 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:00:12,928 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:00:14,192 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:17:13,935 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:17:14,965 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:17:16,215 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:21:08,519 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:21:09,517 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:21:10,769 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:28:55,195 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:28:56,195 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:28:57,453 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:40:07,924 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:40:08,943 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:40:10,198 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:41:45,316 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:41:46,340 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:41:47,594 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:47:16,888 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:47:17,903 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:47:19,160 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:49:50,811 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:49:51,829 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:49:53,116 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 20:54:04,628 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 20:54:05,643 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 20:54:06,919 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 21:02:13,702 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 21:02:14,702 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 21:02:15,952 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 21:05:14,183 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 1, msg: tcp:timeout
+
+2022-07-27 21:05:15,187 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.58.1:7072@Hangzhou in 2, msg: tcp:timeout
+
+2022-07-27 21:05:16,458 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.58.1:7072@Hangzhou, region: unknown, msg: tcp:timeout
+
+2022-07-27 21:05:28,303 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

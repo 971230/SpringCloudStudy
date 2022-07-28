@@ -9,11 +9,21 @@ import org.springframework.stereotype.Component;
  * @Version 1.0
  */
 @Component
-public class UserClientImpl implements UserClient{
-    @Override
-    public User getUserById(int uid) {
-        User user = new User();
-        user.setName("我是在用户服务挂掉后的替代方案");
-        return user;
-    }
+public class UserClientImpl {//implements UserClient
+//    @Override
+//    public User getUserById(int uid) {
+//        User user = new User();
+//        user.setName("我是在用户服务挂掉后的替代方案");
+//        return user;
+//    }
+//
+//    @Override
+//    public boolean userBorrow(int uid) {
+//        return false;
+//    }
+//
+//    @Override
+//    public int userRemain(int uid) {
+//        return 0;
+//    }
 }

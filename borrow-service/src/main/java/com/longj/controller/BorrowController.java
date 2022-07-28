@@ -95,6 +95,18 @@ public class BorrowController {
         return "请求成功！a = " + a + ", b = " + b + ", c = " + c;
     }
 
+    @RequestMapping("/borrow/take/{uid}/{bid}")
+    JSONObject borrow(@PathVariable("uid") int uid,
+                      @PathVariable("bid") int bid){
+        service.doBorrow(uid, bid);
+
+        JSONObject object = new JSONObject();
+        object.put("code", "200");
+        object.put("success", false);
+        object.put("message", "借阅成功！");
+        return object;
+    }
+
 //    测试限流策略接口
 //    @RequestMapping("/test")
 //    @SentinelResource(value = "test",

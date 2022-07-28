@@ -9,4 +9,12 @@ import com.longj.entity.BorrowDetail;
  */
 public interface BorrowService {
     BorrowDetail getUserBorrowDetailByUid(int uid);
+
+    /**
+     * 借阅接口
+     * @param uid 借阅书籍的用户id
+     * @param bid 借阅的书籍id
+     * @return boolean 是否借阅成功
+     */
+    boolean doBorrow(int uid, int bid);
 }

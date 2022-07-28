@@ -15,5 +15,9 @@ public interface UserService {
      * @return User 用户实体类
      */
     User getUserById(int uid);
+
+    int getRemain(int uid);
+
+    boolean setRemain(int uid, int count);
 }
 
