@@ -1,0 +1,430 @@
+2022-07-28 19:55:44,599 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-07-28 19:55:44,599 WARN Using naming.distro config to replace core.distro config
+
+2022-07-28 19:55:44,703 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-07-28 19:55:44,704 INFO listen for service meta change
+
+2022-07-28 19:55:47,950 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-07-28 19:55:47,950 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-07-28 19:55:47,950 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-07-28 19:55:47,950 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-07-28 19:55:48,557 INFO Load instance extension handler []
+
+2022-07-28 19:55:58,397 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:02,944 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:07,949 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:12,962 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:14,969 INFO Client connection 169.254.197.45:57411#true connect
+
+2022-07-28 19:56:15,097 INFO Client connection 169.254.197.45:7070#true connect
+
+2022-07-28 19:56:15,098 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7070#true
+
+2022-07-28 19:56:17,134 INFO Client connection 169.254.197.45:64949#true connect
+
+2022-07-28 19:56:17,201 INFO Client connection 169.254.197.45:7071#true connect
+
+2022-07-28 19:56:17,201 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7071#true
+
+2022-07-28 19:56:17,981 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:22,973 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:23,808 INFO Client connection 169.254.197.45:64592#true connect
+
+2022-07-28 19:56:23,856 INFO Client connection 169.254.197.45:7073#true connect
+
+2022-07-28 19:56:23,856 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
+
+2022-07-28 19:56:26,237 INFO Client connection 169.254.197.45:59736#true connect
+
+2022-07-28 19:56:26,289 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-28 19:56:26,289 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:7074#true
+
+2022-07-28 19:56:27,990 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:28,446 INFO Client connection 169.254.197.45:62942#true connect
+
+2022-07-28 19:56:28,513 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-28 19:56:28,513 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
+
+2022-07-28 19:56:33,016 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:38,006 ERROR [CHECK-FAIL] error when close check task.
+
+com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
+	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
+	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
+	... 11 common frames omitted
+Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
+	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
+	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
+	... 12 common frames omitted
+2022-07-28 19:56:40,253 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-07-28 19:56:40,259 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-07-28 19:56:40,581 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-28 19:56:40,581 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-28 19:57:12,547 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-07-28 19:57:12,547 WARN Using naming.distro config to replace core.distro config
+
+2022-07-28 19:57:12,625 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-07-28 19:57:12,625 INFO listen for service meta change
+
+2022-07-28 19:57:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-07-28 19:57:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-07-28 19:57:15,635 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-07-28 19:57:15,635 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-07-28 19:57:16,160 INFO Load instance extension handler []
+
+2022-07-28 19:57:17,316 INFO Client connection 169.254.197.45:64592#true connect
+
+2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7071#true connect
+
+2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7073#true connect
+
+2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7071#true
+
+2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
+
+2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7074#true
+
+2022-07-28 19:57:17,396 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-28 19:57:17,397 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
+
+2022-07-28 19:57:18,448 INFO Client connection 169.254.197.45:57411#true connect
+
+2022-07-28 19:57:18,568 INFO Client connection 169.254.197.45:7070#true connect
+
+2022-07-28 19:57:18,568 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7070#true
+
+2022-07-28 19:57:19,693 INFO Client connection 169.254.197.45:59736#true connect
+
+2022-07-28 19:57:20,510 INFO Client connection 169.254.197.45:64949#true connect
+
+2022-07-28 19:57:21,939 INFO Client connection 169.254.197.45:62942#true connect
+
+2022-07-28 19:58:44,894 INFO Client connection 169.254.197.45:61733#true connect
+
+2022-07-28 19:58:44,929 INFO Client connection 169.254.197.45:7072#false connect
+
+2022-07-28 19:58:44,949 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 169.254.197.45:7072#false
+
+2022-07-28 20:23:23,099 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-28 20:23:26,072 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 169.254.197.45:7072#false
+
+2022-07-28 20:23:32,142 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:7073#true
+
+2022-07-28 20:23:32,195 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 169.254.197.45:7074#true
+
+2022-07-28 20:23:32,241 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 169.254.197.45:7075#true
+
+2022-07-28 20:23:44,359 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:7070#true
+
+2022-07-28 20:23:44,402 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:7071#true
+
+2022-07-28 20:23:56,204 INFO Client connection 169.254.197.45:61733#true disconnect, remove instances and subscribers
+
+2022-07-28 20:23:58,456 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-07-28 20:23:58,464 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-07-28 20:23:58,784 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-28 20:23:58,784 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

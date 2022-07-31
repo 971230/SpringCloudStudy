@@ -2,6 +2,7 @@ package com.longj.controller;
 
 import com.longj.entity.User;
 import com.longj.service.UserService;
+import io.seata.core.context.RootContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -42,6 +43,8 @@ public class UserController {
 
     @RequestMapping("/user/remain/{uid}")
     public int userRemain(@PathVariable("uid") int uid){
+        // 这里打印一下XID看看，其他的服务业添加这样一个打印，如果一会都打印的是同一个XID，表示使用的就是同一个事务
+        System.out.println(RootContext.getXID());
         return service.getRemain(uid);
     }
 

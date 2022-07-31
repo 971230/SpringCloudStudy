@@ -102,7 +102,7 @@ public class BorrowController {
 
         JSONObject object = new JSONObject();
         object.put("code", "200");
-        object.put("success", false);
+        object.put("success", true);
         object.put("message", "借阅成功！");
         return object;
     }

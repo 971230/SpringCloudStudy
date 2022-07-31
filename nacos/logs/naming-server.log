@@ -1,308 +1,444 @@
-2022-07-28 19:55:44,599 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+2022-07-31 19:44:28,845 WARN naming.distro config will be removed, please use core.protocol.distro replace.
 
-2022-07-28 19:55:44,599 WARN Using naming.distro config to replace core.distro config
+2022-07-31 19:44:28,845 WARN Using naming.distro config to replace core.distro config
 
-2022-07-28 19:55:44,703 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+2022-07-31 19:44:28,941 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
 
-2022-07-28 19:55:44,704 INFO listen for service meta change
+2022-07-31 19:44:28,942 INFO listen for service meta change
 
-2022-07-28 19:55:47,950 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+2022-07-31 19:44:32,595 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
 
-2022-07-28 19:55:47,950 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+2022-07-31 19:44:32,595 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
 
-2022-07-28 19:55:47,950 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+2022-07-31 19:44:32,596 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
 
-2022-07-28 19:55:47,950 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+2022-07-31 19:44:32,596 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
 
-2022-07-28 19:55:48,557 INFO Load instance extension handler []
+2022-07-31 19:44:33,170 INFO Load instance extension handler []
 
-2022-07-28 19:55:58,397 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:45:09,257 INFO Client connection 169.254.197.45:56389#true connect
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:02,944 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:45:09,388 INFO Client connection 169.254.197.45:7070#true connect
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:07,949 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:45:09,388 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7070#true
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:12,962 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:45:11,379 INFO Client connection 169.254.197.45:56390#true connect
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:14,969 INFO Client connection 169.254.197.45:57411#true connect
+2022-07-31 19:45:11,445 INFO Client connection 169.254.197.45:7071#true connect
 
-2022-07-28 19:56:15,097 INFO Client connection 169.254.197.45:7070#true connect
+2022-07-31 19:45:11,445 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7071#true
 
-2022-07-28 19:56:15,098 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7070#true
+2022-07-31 19:46:20,910 INFO Client connection 169.254.197.45:54381#true connect
 
-2022-07-28 19:56:17,134 INFO Client connection 169.254.197.45:64949#true connect
+2022-07-31 19:46:20,962 INFO Client connection 169.254.197.45:7073#true connect
 
-2022-07-28 19:56:17,201 INFO Client connection 169.254.197.45:7071#true connect
+2022-07-31 19:46:20,962 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
 
-2022-07-28 19:56:17,201 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7071#true
+2022-07-31 19:46:23,173 INFO Client connection 169.254.197.45:52156#true connect
 
-2022-07-28 19:56:17,981 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:46:23,223 INFO Client connection 169.254.197.45:7074#true connect
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:22,973 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 19:46:23,224 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:7074#true
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:23,808 INFO Client connection 169.254.197.45:64592#true connect
+2022-07-31 19:46:25,337 INFO Client connection 169.254.197.45:52157#true connect
 
-2022-07-28 19:56:23,856 INFO Client connection 169.254.197.45:7073#true connect
+2022-07-31 19:46:25,395 INFO Client connection 169.254.197.45:7075#true connect
 
-2022-07-28 19:56:23,856 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
+2022-07-31 19:46:25,395 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
 
-2022-07-28 19:56:26,237 INFO Client connection 169.254.197.45:59736#true connect
+2022-07-31 19:46:42,457 INFO Client connection 169.254.197.45:62089#true connect
 
-2022-07-28 19:56:26,289 INFO Client connection 169.254.197.45:7074#true connect
+2022-07-31 19:46:42,491 INFO Client connection 169.254.197.45:7072#false connect
 
-2022-07-28 19:56:26,289 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:7074#true
+2022-07-31 19:46:42,523 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 169.254.197.45:7072#false
 
-2022-07-28 19:56:27,990 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 20:06:32,326 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:7070#true
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:28,446 INFO Client connection 169.254.197.45:62942#true connect
+2022-07-31 20:06:32,373 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:7071#true
 
-2022-07-28 19:56:28,513 INFO Client connection 169.254.197.45:7075#true connect
+2022-07-31 20:06:32,476 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:7073#true
 
-2022-07-28 19:56:28,513 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
+2022-07-31 20:06:32,559 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 169.254.197.45:7074#true
 
-2022-07-28 19:56:33,016 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 20:06:32,612 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 169.254.197.45:7075#true
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:38,006 ERROR [CHECK-FAIL] error when close check task.
+2022-07-31 20:06:32,654 WARN remove instance from non-exist client: 169.254.197.45:7072#true
 
-com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:117)
-	at com.alibaba.nacos.naming.healthcheck.v2.PersistentHealthStatusSynchronizer.instanceHealthStatusChange(PersistentHealthStatusSynchronizer.java:46)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.HealthCheckCommonV2.checkFail(HealthCheckCommonV2.java:143)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$Beat.finishCheck(TcpHealthCheckProcessor.java:279)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor$TimeOutTask.run(TcpHealthCheckProcessor.java:345)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.util.concurrent.ExecutionException: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:181)
-	at com.alibaba.nacos.naming.core.v2.service.impl.PersistentClientOperationServiceImpl.registerInstance(PersistentClientOperationServiceImpl.java:115)
-	... 11 common frames omitted
-Caused by: com.alibaba.nacos.consistency.exception.ConsistencyException: The Raft Group [naming_persistent_service_v2] did not find the Leader node
-	at com.alibaba.nacos.core.distributed.raft.utils.FailoverClosureImpl.run(FailoverClosureImpl.java:60)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.invokeToLeader(JRaftServer.java:459)
-	at com.alibaba.nacos.core.distributed.raft.JRaftServer.commit(JRaftServer.java:346)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.writeAsync(JRaftProtocol.java:186)
-	at com.alibaba.nacos.core.distributed.raft.JRaftProtocol.write(JRaftProtocol.java:179)
-	... 12 common frames omitted
-2022-07-28 19:56:40,253 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+2022-07-31 20:06:35,727 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 169.254.197.45:7072#false
 
-2022-07-28 19:56:40,259 WARN [NamingServerHttpClientManager] Destruction of the end
+2022-07-31 20:06:55,073 INFO Client connection 169.254.197.45:59297#true connect
 
-2022-07-28 19:56:40,581 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+2022-07-31 20:06:55,133 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, 169.254.197.45:7073#true
+
+2022-07-31 20:06:57,796 INFO Client connection 169.254.197.45:59572#true connect
+
+2022-07-31 20:06:57,856 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, 169.254.197.45:7072#false
+
+2022-07-31 20:07:01,672 INFO Client connection 169.254.197.45:52180#true connect
+
+2022-07-31 20:07:01,736 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, 169.254.197.45:7070#true
+
+2022-07-31 20:07:02,532 INFO Client connection 169.254.197.45:52157#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:02,532 INFO Client connection 169.254.197.45:7071#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:02,532 INFO Client connection 169.254.197.45:56389#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:04,501 INFO Client connection 169.254.197.45:53529#true connect
+
+2022-07-31 20:07:04,563 INFO Client connection 169.254.197.45:7071#true connect
+
+2022-07-31 20:07:04,563 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}, 169.254.197.45:7071#true
+
+2022-07-31 20:07:07,537 INFO Client connection 169.254.197.45:7074#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:07,537 INFO Client connection 169.254.197.45:7075#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:07,537 INFO Client connection 169.254.197.45:56390#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:07,537 INFO Client connection 169.254.197.45:54381#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:07,537 INFO Client connection 169.254.197.45:62089#true disconnect, remove instances and subscribers
+
+2022-07-31 20:07:08,817 INFO Client connection 169.254.197.45:57762#true connect
+
+2022-07-31 20:07:08,865 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-31 20:07:08,865 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=7}, 169.254.197.45:7074#true
+
+2022-07-31 20:07:11,379 INFO Client connection 169.254.197.45:59483#true connect
+
+2022-07-31 20:07:11,438 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-31 20:07:11,438 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=8}, 169.254.197.45:7075#true
+
+2022-07-31 20:07:12,548 INFO Client connection 169.254.197.45:52156#true disconnect, remove instances and subscribers
+
+2022-07-31 20:11:42,056 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, 169.254.197.45:7070#true
+
+2022-07-31 20:11:42,129 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=7}, 169.254.197.45:7071#true
+
+2022-07-31 20:11:42,183 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=9}, 169.254.197.45:7073#true
+
+2022-07-31 20:11:42,220 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=10}, 169.254.197.45:7074#true
+
+2022-07-31 20:11:42,273 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=11}, 169.254.197.45:7075#true
+
+2022-07-31 20:11:42,301 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-31 20:11:45,590 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, 169.254.197.45:7072#false
+
+2022-07-31 20:12:00,756 INFO Client connection 169.254.197.45:55027#true connect
+
+2022-07-31 20:12:00,837 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}, 169.254.197.45:7070#true
+
+2022-07-31 20:12:05,738 INFO Client connection 169.254.197.45:61304#true connect
+
+2022-07-31 20:12:05,802 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=4}, 169.254.197.45:7072#false
+
+2022-07-31 20:12:07,732 INFO Client connection 169.254.197.45:64840#true connect
+
+2022-07-31 20:12:07,792 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=9}, 169.254.197.45:7071#true
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:7074#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:7075#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:59483#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:59572#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:57762#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:12,976 INFO Client connection 169.254.197.45:7073#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:13,464 INFO Client connection 169.254.197.45:63226#true connect
+
+2022-07-31 20:12:13,507 INFO Client connection 169.254.197.45:7073#true connect
+
+2022-07-31 20:12:13,508 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=12}, 169.254.197.45:7073#true
+
+2022-07-31 20:12:15,624 INFO Client connection 169.254.197.45:61778#true connect
+
+2022-07-31 20:12:15,665 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-31 20:12:15,665 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=13}, 169.254.197.45:7074#true
+
+2022-07-31 20:12:17,763 INFO Client connection 169.254.197.45:61779#true connect
+
+2022-07-31 20:12:17,818 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-31 20:12:17,819 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=14}, 169.254.197.45:7075#true
+
+2022-07-31 20:12:17,984 INFO Client connection 169.254.197.45:53529#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:17,984 INFO Client connection 169.254.197.45:52180#true disconnect, remove instances and subscribers
+
+2022-07-31 20:12:17,984 INFO Client connection 169.254.197.45:59297#true disconnect, remove instances and subscribers
+
+2022-07-31 20:20:40,166 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-31 20:20:43,478 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=5}, 169.254.197.45:7072#false
+
+2022-07-31 20:20:59,764 INFO Client connection 169.254.197.45:56556#true connect
+
+2022-07-31 20:20:59,805 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=6}, 169.254.197.45:7072#false
+
+2022-07-31 20:21:13,842 INFO Client connection 169.254.197.45:61304#true disconnect, remove instances and subscribers
+
+2022-07-31 20:28:49,093 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=10}, 169.254.197.45:7070#true
+
+2022-07-31 20:28:49,168 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=11}, 169.254.197.45:7071#true
+
+2022-07-31 20:29:07,818 INFO Client connection 169.254.197.45:51985#true connect
+
+2022-07-31 20:29:07,872 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=12}, 169.254.197.45:7071#true
+
+2022-07-31 20:29:10,346 INFO Client connection 169.254.197.45:51986#true connect
+
+2022-07-31 20:29:10,414 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=13}, 169.254.197.45:7070#true
+
+2022-07-31 20:29:24,681 INFO Client connection 169.254.197.45:55027#true disconnect, remove instances and subscribers
+
+2022-07-31 20:29:24,681 INFO Client connection 169.254.197.45:64840#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:17,069 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=14}, 169.254.197.45:7070#true
+
+2022-07-31 20:34:17,106 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=15}, 169.254.197.45:7071#true
+
+2022-07-31 20:34:17,206 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=15}, 169.254.197.45:7073#true
+
+2022-07-31 20:34:17,277 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=16}, 169.254.197.45:7074#true
+
+2022-07-31 20:34:17,343 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=17}, 169.254.197.45:7075#true
+
+2022-07-31 20:34:17,382 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-31 20:34:20,647 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=7}, 169.254.197.45:7072#false
+
+2022-07-31 20:34:45,177 INFO Client connection 169.254.197.45:56556#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:7074#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:7071#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:7075#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:7070#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:51985#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:61778#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:63226#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:50,186 INFO Client connection 169.254.197.45:7073#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:55,192 INFO Client connection 169.254.197.45:61779#true disconnect, remove instances and subscribers
+
+2022-07-31 20:34:55,192 INFO Client connection 169.254.197.45:51986#true disconnect, remove instances and subscribers
+
+2022-07-31 20:36:03,477 WARN namespace : 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2022-07-31 20:36:03,477 WARN namespace : 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09, [DEFAULT_GROUP@@book-service] services are automatically cleaned
+
+2022-07-31 21:01:00,426 INFO Client connection 169.254.197.45:8868#true connect
+
+2022-07-31 21:01:00,426 INFO Client change for service Service{namespace='601823ef-e292-49f4-b521-df0851750603', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 169.254.197.45:8868#true
+
+2022-07-31 21:01:56,054 INFO Client connection 169.254.197.45:61631#true connect
+
+2022-07-31 21:01:58,392 INFO Client connection 169.254.197.45:61200#true connect
+
+2022-07-31 21:02:02,485 INFO Client connection 169.254.197.45:50915#true connect
+
+2022-07-31 21:02:02,501 INFO Client connection 169.254.197.45:7070#true connect
+
+2022-07-31 21:02:02,501 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7070#true
+
+2022-07-31 21:02:05,000 INFO Client connection 169.254.197.45:60786#true connect
+
+2022-07-31 21:02:05,019 INFO Client connection 169.254.197.45:7071#true connect
+
+2022-07-31 21:02:05,019 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7071#true
+
+2022-07-31 21:02:05,025 INFO Client connection 169.254.197.45:60787#true connect
+
+2022-07-31 21:02:07,651 INFO Client connection 169.254.197.45:59670#true connect
+
+2022-07-31 21:02:09,859 INFO Client connection 169.254.197.45:61151#true connect
+
+2022-07-31 21:02:10,574 INFO Client connection 169.254.197.45:50709#true connect
+
+2022-07-31 21:02:10,589 INFO Client connection 169.254.197.45:7073#true connect
+
+2022-07-31 21:02:10,590 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
+
+2022-07-31 21:02:12,317 INFO Client connection 169.254.197.45:62885#true connect
+
+2022-07-31 21:02:13,077 INFO Client connection 169.254.197.45:62886#true connect
+
+2022-07-31 21:02:13,092 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-31 21:02:13,092 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:7074#true
+
+2022-07-31 21:02:15,207 INFO Client connection 169.254.197.45:60744#true connect
+
+2022-07-31 21:02:15,223 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-31 21:02:15,223 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
+
+2022-07-31 21:02:17,683 INFO Client connection 169.254.197.45:62165#true connect
+
+2022-07-31 21:02:17,705 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=8}, 169.254.197.45:7072#false
+
+2022-07-31 21:09:00,598 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:7070#true
+
+2022-07-31 21:09:00,693 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:7071#true
+
+2022-07-31 21:09:00,756 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:7073#true
+
+2022-07-31 21:09:00,795 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 169.254.197.45:7074#true
+
+2022-07-31 21:09:00,840 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 169.254.197.45:7075#true
+
+2022-07-31 21:09:00,875 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-31 21:09:03,907 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=9}, 169.254.197.45:7072#false
+
+2022-07-31 21:09:22,014 INFO Client remove for service Service{namespace='601823ef-e292-49f4-b521-df0851750603', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 169.254.197.45:8868#true
+
+2022-07-31 21:09:28,495 INFO Client connection 169.254.197.45:60787#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:28,495 INFO Client connection 169.254.197.45:61631#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:28,495 INFO Client connection 169.254.197.45:60744#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:28,495 INFO Client connection 169.254.197.45:60786#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:7074#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:61151#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:62165#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:7071#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:7075#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:50709#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:61200#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:7070#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:59670#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:33,506 INFO Client connection 169.254.197.45:7073#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:36,085 INFO Client remove for service Service{namespace='601823ef-e292-49f4-b521-df0851750603', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=2}, 169.254.197.45:8868#true
+
+2022-07-31 21:09:38,509 INFO Client connection 169.254.197.45:62885#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:38,509 INFO Client connection 169.254.197.45:50915#true disconnect, remove instances and subscribers
+
+2022-07-31 21:09:38,509 INFO Client connection 169.254.197.45:62886#true disconnect, remove instances and subscribers
+
+2022-07-31 21:10:03,720 WARN namespace : 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2022-07-31 21:10:03,720 WARN namespace : 3206fdf7-a5a1-48d2-9886-e5efaf2d4b09, [DEFAULT_GROUP@@book-service] services are automatically cleaned
+
+2022-07-31 21:10:08,568 INFO Client connection 169.254.197.45:8868#true disconnect, remove instances and subscribers
+
+2022-07-31 21:11:00,880 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-07-31 21:11:00,881 WARN Using naming.distro config to replace core.distro config
+
+2022-07-31 21:11:00,967 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-07-31 21:11:00,968 INFO listen for service meta change
+
+2022-07-31 21:11:04,308 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-07-31 21:11:04,308 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-07-31 21:11:04,308 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-07-31 21:11:04,308 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-07-31 21:11:04,892 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 169.254.197.45:7072#false
+
+2022-07-31 21:11:05,124 INFO Load instance extension handler []
+
+2022-07-31 21:22:51,464 INFO Client connection 169.254.197.45:8868#true connect
+
+2022-07-31 21:22:51,467 INFO Client change for service Service{namespace='601823ef-e292-49f4-b521-df0851750603', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 169.254.197.45:8868#true
+
+2022-07-31 21:23:20,939 INFO Client connection 169.254.197.45:55896#true connect
+
+2022-07-31 21:23:23,641 INFO Client connection 169.254.197.45:59488#true connect
+
+2022-07-31 21:23:27,745 INFO Client connection 169.254.197.45:61647#true connect
+
+2022-07-31 21:23:27,763 INFO Client connection 169.254.197.45:7070#true connect
+
+2022-07-31 21:23:27,763 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7070#true
+
+2022-07-31 21:23:28,787 INFO Client connection 169.254.197.45:49707#true connect
+
+2022-07-31 21:23:29,950 INFO Client connection 169.254.197.45:49708#true connect
+
+2022-07-31 21:23:29,971 INFO Client connection 169.254.197.45:7071#true connect
+
+2022-07-31 21:23:29,971 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7071#true
+
+2022-07-31 21:23:31,483 INFO Client connection 169.254.197.45:64598#true connect
+
+2022-07-31 21:23:34,118 INFO Client connection 169.254.197.45:57522#true connect
+
+2022-07-31 21:23:34,319 INFO Client connection 169.254.197.45:57523#true connect
+
+2022-07-31 21:23:34,337 INFO Client connection 169.254.197.45:7073#true connect
+
+2022-07-31 21:23:34,337 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
+
+2022-07-31 21:23:34,707 INFO Client connection 169.254.197.45:57524#true connect
+
+2022-07-31 21:23:37,090 INFO Client connection 169.254.197.45:63414#true connect
+
+2022-07-31 21:23:37,106 INFO Client connection 169.254.197.45:7074#true connect
+
+2022-07-31 21:23:37,106 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:7074#true
+
+2022-07-31 21:23:39,720 INFO Client connection 169.254.197.45:50846#true connect
+
+2022-07-31 21:23:39,738 INFO Client connection 169.254.197.45:7075#true connect
+
+2022-07-31 21:23:39,738 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
+
+2022-07-31 21:23:40,424 INFO Client connection 169.254.197.45:53201#true connect
+
+2022-07-31 21:23:40,458 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, 169.254.197.45:7072#false
+
+2022-07-31 21:29:59,426 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:7070#true
+
+2022-07-31 21:29:59,524 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:7071#true
+
+2022-07-31 21:29:59,608 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:7073#true
+
+2022-07-31 21:29:59,666 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 169.254.197.45:7074#true
+
+2022-07-31 21:29:59,746 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 169.254.197.45:7075#true
+
+2022-07-31 21:29:59,793 WARN remove instance from non-exist client: 169.254.197.45:7072#true
+
+2022-07-31 21:30:03,010 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=3}, 169.254.197.45:7072#false
+
+2022-07-31 21:30:23,515 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-07-31 21:30:23,521 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-07-31 21:30:23,851 ERROR [HEALTH-CHECK-V2] error while processing NIO task
 
 java.lang.InterruptedException: null
 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
@@ -315,107 +451,7 @@ java.lang.InterruptedException: null
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2022-07-28 19:56:40,581 ERROR [HEALTH-CHECK] error while processing NIO task
-
-java.lang.InterruptedException: null
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
-	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
-	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
-	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2022-07-28 19:57:12,547 WARN naming.distro config will be removed, please use core.protocol.distro replace.
-
-2022-07-28 19:57:12,547 WARN Using naming.distro config to replace core.distro config
-
-2022-07-28 19:57:12,625 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
-
-2022-07-28 19:57:12,625 INFO listen for service meta change
-
-2022-07-28 19:57:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
-
-2022-07-28 19:57:15,635 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
-
-2022-07-28 19:57:15,635 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
-
-2022-07-28 19:57:15,635 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
-
-2022-07-28 19:57:16,160 INFO Load instance extension handler []
-
-2022-07-28 19:57:17,316 INFO Client connection 169.254.197.45:64592#true connect
-
-2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7071#true connect
-
-2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7073#true connect
-
-2022-07-28 19:57:17,355 INFO Client connection 169.254.197.45:7074#true connect
-
-2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:7071#true
-
-2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7073#true
-
-2022-07-28 19:57:17,356 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:7074#true
-
-2022-07-28 19:57:17,396 INFO Client connection 169.254.197.45:7075#true connect
-
-2022-07-28 19:57:17,397 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:7075#true
-
-2022-07-28 19:57:18,448 INFO Client connection 169.254.197.45:57411#true connect
-
-2022-07-28 19:57:18,568 INFO Client connection 169.254.197.45:7070#true connect
-
-2022-07-28 19:57:18,568 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:7070#true
-
-2022-07-28 19:57:19,693 INFO Client connection 169.254.197.45:59736#true connect
-
-2022-07-28 19:57:20,510 INFO Client connection 169.254.197.45:64949#true connect
-
-2022-07-28 19:57:21,939 INFO Client connection 169.254.197.45:62942#true connect
-
-2022-07-28 19:58:44,894 INFO Client connection 169.254.197.45:61733#true connect
-
-2022-07-28 19:58:44,929 INFO Client connection 169.254.197.45:7072#false connect
-
-2022-07-28 19:58:44,949 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 169.254.197.45:7072#false
-
-2022-07-28 20:23:23,099 WARN remove instance from non-exist client: 169.254.197.45:7072#true
-
-2022-07-28 20:23:26,072 INFO Client change for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 169.254.197.45:7072#false
-
-2022-07-28 20:23:32,142 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:7073#true
-
-2022-07-28 20:23:32,195 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 169.254.197.45:7074#true
-
-2022-07-28 20:23:32,241 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 169.254.197.45:7075#true
-
-2022-07-28 20:23:44,359 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:7070#true
-
-2022-07-28 20:23:44,402 INFO Client remove for service Service{namespace='3206fdf7-a5a1-48d2-9886-e5efaf2d4b09', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:7071#true
-
-2022-07-28 20:23:56,204 INFO Client connection 169.254.197.45:61733#true disconnect, remove instances and subscribers
-
-2022-07-28 20:23:58,456 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2022-07-28 20:23:58,464 WARN [NamingServerHttpClientManager] Destruction of the end
-
-2022-07-28 20:23:58,784 ERROR [HEALTH-CHECK-V2] error while processing NIO task
-
-java.lang.InterruptedException: null
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
-	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
-	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2022-07-28 20:23:58,784 ERROR [HEALTH-CHECK] error while processing NIO task
+2022-07-31 21:30:23,851 ERROR [HEALTH-CHECK] error while processing NIO task
 
 java.lang.InterruptedException: null
 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)

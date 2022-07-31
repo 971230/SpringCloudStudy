@@ -1,488 +1,338 @@
-2022-07-28 19:55:48,013 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+2022-07-31 19:44:32,662 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
 
-2022-07-28 19:55:48,054 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+2022-07-31 19:44:32,707 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
 
-2022-07-28 19:55:48,149 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+2022-07-31 19:44:32,813 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
 
-2022-07-28 19:55:48,158 INFO The number of active nodes increment to 1.
+2022-07-31 19:44:32,817 INFO The number of active nodes increment to 1.
 
-2022-07-28 19:55:48,289 INFO Starts FSMCaller successfully.
+2022-07-31 19:44:32,951 INFO Starts FSMCaller successfully.
 
-2022-07-28 19:55:48,291 INFO Loading snapshot, meta=last_included_index: 26
+2022-07-31 19:44:32,957 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2022-07-31 19:44:32,970 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:32,972 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-07-31 19:44:32,986 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-07-31 19:44:32,989 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=14 ms
+
+2022-07-31 19:44:32,989 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:32,992 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-07-31 19:44:32,995 WARN RPC server is not started in RaftGroupService.
+
+2022-07-31 19:44:32,995 INFO Start the RaftGroupService successfully.
+
+2022-07-31 19:44:33,003 INFO onLeaderStart: term=1.
+
+2022-07-31 19:44:33,010 INFO The number of active nodes increment to 2.
+
+2022-07-31 19:44:33,039 INFO Starts FSMCaller successfully.
+
+2022-07-31 19:44:33,040 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2022-07-31 19:44:33,041 INFO Node <naming_instance_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:33,041 INFO Node <naming_instance_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-07-31 19:44:33,044 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-07-31 19:44:33,044 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=3 ms
+
+2022-07-31 19:44:33,044 INFO Node <naming_instance_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:33,044 WARN RPC server is not started in RaftGroupService.
+
+2022-07-31 19:44:33,044 INFO Start the RaftGroupService successfully.
+
+2022-07-31 19:44:33,045 INFO onLeaderStart: term=1.
+
+2022-07-31 19:44:33,049 INFO The number of active nodes increment to 3.
+
+2022-07-31 19:44:33,052 WARN Channel in TRANSIENT_FAILURE state: 169.254.197.45:7848.
+
+2022-07-31 19:44:33,052 WARN Channel in SHUTDOWN state: 169.254.197.45:7848.
+
+2022-07-31 19:44:33,079 INFO Starts FSMCaller successfully.
+
+2022-07-31 19:44:33,080 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2022-07-31 19:44:33,080 INFO Node <naming_service_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:33,080 INFO Node <naming_service_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-07-31 19:44:33,083 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-07-31 19:44:33,083 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
+
+2022-07-31 19:44:33,083 INFO Node <naming_service_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-07-31 19:44:33,083 WARN RPC server is not started in RaftGroupService.
+
+2022-07-31 19:44:33,083 INFO Start the RaftGroupService successfully.
+
+2022-07-31 19:44:33,084 INFO onLeaderStart: term=1.
+
+2022-07-31 20:01:26,839 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-07-31 20:01:26,839 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-07-31 20:01:26,839 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-07-31 20:01:45,604 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-07-31 20:01:45,605 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2022-07-31 20:01:45,605 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2022-07-31 20:07:25,937 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-07-31 20:07:25,937 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2022-07-31 20:07:25,937 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2022-07-31 20:37:25,943 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-07-31 20:37:25,944 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_9.
+
+2022-07-31 20:37:25,944 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_9.
+
+2022-07-31 20:37:25,945 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2022-07-31 21:07:25,971 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-07-31 21:07:25,971 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_10.
+
+2022-07-31 21:07:25,972 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_10.
+
+2022-07-31 21:07:25,975 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_9.
+
+2022-07-31 21:11:04,369 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-07-31 21:11:04,409 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-07-31 21:11:04,505 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-07-31 21:11:04,510 INFO The number of active nodes increment to 1.
+
+2022-07-31 21:11:04,760 INFO Starts FSMCaller successfully.
+
+2022-07-31 21:11:04,767 INFO Loading snapshot, meta=last_included_index: 10
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 .
 
-2022-07-28 19:55:48,380 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 26
+2022-07-31 21:11:04,844 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 10
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 
 
-2022-07-28 19:55:48,380 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
+2022-07-31 21:11:04,844 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
 
-2022-07-28 19:55:48,400 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=35, term=1], conf=192.168.58.1:7848, oldConf=.
+2022-07-31 21:11:04,859 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=11, term=1], conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:48,400 WARN RPC server is not started in RaftGroupService.
+2022-07-31 21:11:04,860 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> start vote and grant vote self, term=1.
 
-2022-07-28 19:55:48,400 INFO Start the RaftGroupService successfully.
+2022-07-31 21:11:04,877 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
 
-2022-07-28 19:55:48,411 INFO The number of active nodes increment to 2.
+2022-07-31 21:11:04,877 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=15 ms
 
-2022-07-28 19:55:48,439 INFO Starts FSMCaller successfully.
+2022-07-31 21:11:04,878 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> become leader of group, term=2, conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:48,439 INFO Loading snapshot, meta=last_included_index: 1
+2022-07-31 21:11:04,879 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-07-31 21:11:04,881 WARN RPC server is not started in RaftGroupService.
+
+2022-07-31 21:11:04,881 INFO Start the RaftGroupService successfully.
+
+2022-07-31 21:11:04,893 INFO The number of active nodes increment to 2.
+
+2022-07-31 21:11:04,894 INFO onLeaderStart: term=2.
+
+2022-07-31 21:11:04,936 WARN Channel in TRANSIENT_FAILURE state: 169.254.197.45:7848.
+
+2022-07-31 21:11:04,936 WARN Channel in SHUTDOWN state: 169.254.197.45:7848.
+
+2022-07-31 21:11:04,954 INFO Starts FSMCaller successfully.
+
+2022-07-31 21:11:04,955 INFO Loading snapshot, meta=last_included_index: 1
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 .
 
-2022-07-28 19:55:48,442 INFO Node <naming_instance_metadata/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 1
+2022-07-31 21:11:04,957 INFO Node <naming_instance_metadata/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 1
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 
 
-2022-07-28 19:55:48,442 INFO Node <naming_instance_metadata/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
+2022-07-31 21:11:04,957 INFO Node <naming_instance_metadata/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
 
-2022-07-28 19:55:48,443 INFO Node <naming_instance_metadata/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=.
+2022-07-31 21:11:04,958 INFO Node <naming_instance_metadata/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:48,444 WARN RPC server is not started in RaftGroupService.
+2022-07-31 21:11:04,958 INFO Node <naming_instance_metadata/169.254.197.45:7848> start vote and grant vote self, term=1.
 
-2022-07-28 19:55:48,444 INFO Start the RaftGroupService successfully.
+2022-07-31 21:11:04,966 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
 
-2022-07-28 19:55:48,447 INFO The number of active nodes increment to 3.
+2022-07-31 21:11:04,966 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=7 ms
 
-2022-07-28 19:55:48,458 WARN Channel in TRANSIENT_FAILURE state: 169.254.197.45:7848.
+2022-07-31 21:11:04,966 INFO Node <naming_instance_metadata/169.254.197.45:7848> become leader of group, term=2, conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:48,458 WARN Channel in SHUTDOWN state: 169.254.197.45:7848.
+2022-07-31 21:11:04,966 WARN RPC server is not started in RaftGroupService.
 
-2022-07-28 19:55:48,476 INFO Starts FSMCaller successfully.
+2022-07-31 21:11:04,966 INFO Start the RaftGroupService successfully.
 
-2022-07-28 19:55:48,477 INFO Loading snapshot, meta=last_included_index: 1
+2022-07-31 21:11:04,967 INFO onLeaderStart: term=2.
+
+2022-07-31 21:11:04,969 INFO The number of active nodes increment to 3.
+
+2022-07-31 21:11:05,022 INFO Starts FSMCaller successfully.
+
+2022-07-31 21:11:05,023 INFO Loading snapshot, meta=last_included_index: 1
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 .
 
-2022-07-28 19:55:48,478 INFO Node <naming_service_metadata/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 1
+2022-07-31 21:11:05,024 INFO Node <naming_service_metadata/169.254.197.45:7848> onSnapshotLoadDone, last_included_index: 1
 last_included_term: 1
-peers: "192.168.58.1:7848"
+peers: "169.254.197.45:7848"
 
 
-2022-07-28 19:55:48,478 INFO Node <naming_service_metadata/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
+2022-07-31 21:11:05,024 INFO Node <naming_service_metadata/169.254.197.45:7848> target priority value has changed from: 0, to: -1.
 
-2022-07-28 19:55:48,478 INFO Node <naming_service_metadata/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=.
+2022-07-31 21:11:05,024 INFO Node <naming_service_metadata/169.254.197.45:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:48,479 WARN RPC server is not started in RaftGroupService.
+2022-07-31 21:11:05,025 INFO Node <naming_service_metadata/169.254.197.45:7848> start vote and grant vote self, term=1.
 
-2022-07-28 19:55:48,479 INFO Start the RaftGroupService successfully.
+2022-07-31 21:11:05,033 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
 
-2022-07-28 19:55:53,636 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:11:05,033 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=8 ms
 
-2022-07-28 19:55:53,636 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:11:05,033 INFO Node <naming_service_metadata/169.254.197.45:7848> become leader of group, term=2, conf=169.254.197.45:7848, oldConf=.
 
-2022-07-28 19:55:54,110 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:11:05,033 WARN RPC server is not started in RaftGroupService.
 
-2022-07-28 19:55:54,110 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:11:05,033 INFO Start the RaftGroupService successfully.
 
-2022-07-28 19:55:54,347 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:11:05,034 INFO onLeaderStart: term=2.
 
-2022-07-28 19:55:54,347 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:28:22,721 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
 
-2022-07-28 19:55:59,019 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:28:22,722 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_13.
 
-2022-07-28 19:55:59,019 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:28:22,722 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_13.
 
-2022-07-28 19:55:59,492 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:28:22,725 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_10.
 
-2022-07-28 19:55:59,492 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,526 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_LEADER.
 
-2022-07-28 19:55:59,507 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,527 INFO Fail to find the next candidate.
 
-2022-07-28 19:55:59,507 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,527 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
 
-2022-07-28 19:56:04,396 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,536 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
 
-2022-07-28 19:56:04,396 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,536 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=8 ms
 
-2022-07-28 19:56:05,356 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,536 INFO Shutting down FSMCaller...
 
-2022-07-28 19:56:05,356 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,537 INFO onShutdown.
 
-2022-07-28 19:56:05,467 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,537 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@498c4810[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:05,467 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,538 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@6086bf28[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:10,185 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,538 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:10,185 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,538 INFO The number of active nodes decrement to 2.
 
-2022-07-28 19:56:10,794 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,538 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:10,794 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,538 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:11,107 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,538 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:11,107 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,539 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_SHUTTING.
 
-2022-07-28 19:56:15,721 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,540 INFO Stop the RaftGroupService successfully.
 
-2022-07-28 19:56:15,721 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,540 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_LEADER.
 
-2022-07-28 19:56:16,266 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,540 INFO Fail to find the next candidate.
 
-2022-07-28 19:56:16,266 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,540 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
 
-2022-07-28 19:56:16,532 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,549 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
 
-2022-07-28 19:56:16,532 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,549 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=9 ms
 
-2022-07-28 19:56:20,947 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,549 INFO Shutting down FSMCaller...
 
-2022-07-28 19:56:20,947 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,550 INFO onShutdown.
 
-2022-07-28 19:56:21,391 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,550 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1757802[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:21,391 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,550 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2831d92c[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:21,644 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,550 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:21,644 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,550 INFO The number of active nodes decrement to 1.
 
-2022-07-28 19:56:26,141 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,550 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:26,141 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,550 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:26,761 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,550 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:26,761 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,551 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_SHUTTING.
 
-2022-07-28 19:56:27,348 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,551 INFO Stop the RaftGroupService successfully.
 
-2022-07-28 19:56:27,348 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,551 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_LEADER.
 
-2022-07-28 19:56:31,920 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,551 INFO Fail to find the next candidate.
 
-2022-07-28 19:56:31,920 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,551 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
 
-2022-07-28 19:56:32,494 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,560 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
 
-2022-07-28 19:56:32,494 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,560 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=169.254.197.45:7848, cost time=9 ms
 
-2022-07-28 19:56:32,613 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,561 INFO Shutting down FSMCaller...
 
-2022-07-28 19:56:32,613 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,561 INFO onShutdown.
 
-2022-07-28 19:56:37,546 INFO Node <naming_service_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,561 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@298e989f[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:37,546 WARN Node <naming_service_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,561 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@31150c4[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
 
-2022-07-28 19:56:38,225 INFO Node <naming_instance_metadata/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,561 INFO The number of active nodes decrement to 0.
 
-2022-07-28 19:56:38,225 WARN Node <naming_instance_metadata/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=1, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,563 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3d5c4842[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
 
-2022-07-28 19:56:38,288 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> term 1 start preVote.
+2022-07-31 21:30:23,563 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:38,288 WARN Node <naming_persistent_service_v2/169.254.197.45:7848> can't do preVote as it is not in conf <ConfigurationEntry [id=LogId [index=26, term=1], conf=192.168.58.1:7848, oldConf=]>.
+2022-07-31 21:30:23,563 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@4d1067ca[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 3].
 
-2022-07-28 19:56:40,262 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_FOLLOWER.
+2022-07-31 21:30:23,563 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:40,269 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+2022-07-31 21:30:23,563 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@6d9d7af7[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1383].
 
-2022-07-28 19:56:40,269 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=6 ms
+2022-07-31 21:30:23,564 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:40,269 INFO Shutting down FSMCaller...
+2022-07-31 21:30:23,564 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@463887b6[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1].
 
-2022-07-28 19:56:40,270 INFO onShutdown.
+2022-07-31 21:30:23,564 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
 
-2022-07-28 19:56:40,270 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@31957ae6[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+2022-07-31 21:30:23,564 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=2 state=STATE_SHUTTING.
 
-2022-07-28 19:56:40,270 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1b3aecd9[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+2022-07-31 21:30:23,564 INFO Stop the RaftGroupService successfully.
 
-2022-07-28 19:56:40,270 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/169.254.197.45:7848>'}.
+2022-07-31 21:30:23,564 INFO Shutdown managed channel: 169.254.197.45:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=169.254.197.45:7848}}.
 
-2022-07-28 19:56:40,270 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/169.254.197.45:7848>'}.
+2022-07-31 21:30:23,569 INFO Connection disconnected: /169.254.197.45:5603
 
-2022-07-28 19:56:40,270 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,270 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,271 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 19:56:40,271 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 19:56:40,271 INFO The number of active nodes decrement to 2.
-
-2022-07-28 19:56:40,271 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_FOLLOWER.
-
-2022-07-28 19:56:40,273 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
-
-2022-07-28 19:56:40,273 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=2 ms
-
-2022-07-28 19:56:40,273 INFO Shutting down FSMCaller...
-
-2022-07-28 19:56:40,273 INFO onShutdown.
-
-2022-07-28 19:56:40,273 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5c419258[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,273 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@495a7ae1[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,273 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,273 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,273 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,273 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,273 INFO The number of active nodes decrement to 1.
-
-2022-07-28 19:56:40,274 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 19:56:40,274 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 19:56:40,274 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_FOLLOWER.
-
-2022-07-28 19:56:40,276 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
-
-2022-07-28 19:56:40,276 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.58.1:7848, cost time=2 ms
-
-2022-07-28 19:56:40,276 INFO Shutting down FSMCaller...
-
-2022-07-28 19:56:40,276 INFO onShutdown.
-
-2022-07-28 19:56:40,276 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@3f4ea36e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,276 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@627d052d[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,276 INFO The number of active nodes decrement to 0.
-
-2022-07-28 19:56:40,277 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@51d1fd1a[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 27].
-
-2022-07-28 19:56:40,277 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,277 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@73dfee13[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,277 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,277 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1cab13c6[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,277 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,277 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1989c579[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 19:56:40,277 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 19:56:40,278 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 19:56:40,278 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 19:56:40,278 INFO Shutdown managed channel: 169.254.197.45:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=169.254.197.45:7848}}.
-
-2022-07-28 19:56:40,283 INFO Connection disconnected: /169.254.197.45:6685
-
-2022-07-28 19:56:40,284 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@7b8ee031[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 198].
-
-2022-07-28 19:57:15,691 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
-
-2022-07-28 19:57:15,730 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
-
-2022-07-28 19:57:15,834 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
-
-2022-07-28 19:57:15,839 INFO The number of active nodes increment to 1.
-
-2022-07-28 19:57:15,971 INFO Starts FSMCaller successfully.
-
-2022-07-28 19:57:15,977 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
-
-2022-07-28 19:57:15,989 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:15,990 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> start vote and grant vote self, term=0.
-
-2022-07-28 19:57:16,004 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
-
-2022-07-28 19:57:16,006 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=13 ms
-
-2022-07-28 19:57:16,006 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:16,006 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
-
-2022-07-28 19:57:16,011 WARN RPC server is not started in RaftGroupService.
-
-2022-07-28 19:57:16,011 INFO Start the RaftGroupService successfully.
-
-2022-07-28 19:57:16,018 INFO onLeaderStart: term=1.
-
-2022-07-28 19:57:16,025 INFO The number of active nodes increment to 2.
-
-2022-07-28 19:57:16,050 INFO Starts FSMCaller successfully.
-
-2022-07-28 19:57:16,052 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
-
-2022-07-28 19:57:16,053 INFO Node <naming_instance_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:16,053 INFO Node <naming_instance_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
-
-2022-07-28 19:57:16,055 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
-
-2022-07-28 19:57:16,055 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
-
-2022-07-28 19:57:16,055 INFO Node <naming_instance_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:16,055 WARN RPC server is not started in RaftGroupService.
-
-2022-07-28 19:57:16,055 INFO Start the RaftGroupService successfully.
-
-2022-07-28 19:57:16,056 INFO onLeaderStart: term=1.
-
-2022-07-28 19:57:16,060 INFO The number of active nodes increment to 3.
-
-2022-07-28 19:57:16,067 WARN Channel in TRANSIENT_FAILURE state: 169.254.197.45:7848.
-
-2022-07-28 19:57:16,067 WARN Channel in SHUTDOWN state: 169.254.197.45:7848.
-
-2022-07-28 19:57:16,084 INFO Starts FSMCaller successfully.
-
-2022-07-28 19:57:16,084 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot.
-
-2022-07-28 19:57:16,084 INFO Node <naming_service_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:16,084 INFO Node <naming_service_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
-
-2022-07-28 19:57:16,086 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
-
-2022-07-28 19:57:16,086 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
-
-2022-07-28 19:57:16,086 INFO Node <naming_service_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
-
-2022-07-28 19:57:16,087 WARN RPC server is not started in RaftGroupService.
-
-2022-07-28 19:57:16,087 INFO Start the RaftGroupService successfully.
-
-2022-07-28 19:57:16,087 INFO onLeaderStart: term=1.
-
-2022-07-28 20:12:21,126 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
-
-2022-07-28 20:12:21,127 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
-
-2022-07-28 20:12:21,127 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
-
-2022-07-28 20:15:17,517 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
-
-2022-07-28 20:15:17,517 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
-
-2022-07-28 20:15:17,518 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
-
-2022-07-28 20:19:38,361 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
-
-2022-07-28 20:19:38,361 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
-
-2022-07-28 20:19:38,361 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
-
-2022-07-28 20:23:58,467 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_LEADER.
-
-2022-07-28 20:23:58,468 INFO Fail to find the next candidate.
-
-2022-07-28 20:23:58,468 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
-
-2022-07-28 20:23:58,472 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
-
-2022-07-28 20:23:58,472 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
-
-2022-07-28 20:23:58,472 INFO Shutting down FSMCaller...
-
-2022-07-28 20:23:58,472 INFO onShutdown.
-
-2022-07-28 20:23:58,472 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1db26cab[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,472 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@138a3cd2[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,472 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,472 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,472 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,473 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,473 INFO Node <naming_service_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 20:23:58,473 INFO The number of active nodes decrement to 2.
-
-2022-07-28 20:23:58,473 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 20:23:58,473 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_LEADER.
-
-2022-07-28 20:23:58,473 INFO Fail to find the next candidate.
-
-2022-07-28 20:23:58,473 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
-
-2022-07-28 20:23:58,475 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
-
-2022-07-28 20:23:58,475 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
-
-2022-07-28 20:23:58,475 INFO Shutting down FSMCaller...
-
-2022-07-28 20:23:58,475 INFO onShutdown.
-
-2022-07-28 20:23:58,476 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@70f76934[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,476 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@44fac0e5[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,476 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,476 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,476 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,476 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,476 INFO Node <naming_instance_metadata/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 20:23:58,476 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 20:23:58,476 INFO The number of active nodes decrement to 1.
-
-2022-07-28 20:23:58,476 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_LEADER.
-
-2022-07-28 20:23:58,476 INFO Fail to find the next candidate.
-
-2022-07-28 20:23:58,476 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
-
-2022-07-28 20:23:58,478 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
-
-2022-07-28 20:23:58,478 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy2\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
-
-2022-07-28 20:23:58,478 INFO Shutting down FSMCaller...
-
-2022-07-28 20:23:58,478 INFO onShutdown.
-
-2022-07-28 20:23:58,479 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@259cfbf8[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,479 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@e3fd0c1[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
-
-2022-07-28 20:23:58,479 INFO The number of active nodes decrement to 0.
-
-2022-07-28 20:23:58,480 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2505bed1[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
-
-2022-07-28 20:23:58,480 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,480 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@565066f9[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
-
-2022-07-28 20:23:58,480 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,481 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@4e570b79[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1916].
-
-2022-07-28 20:23:58,481 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,481 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3f7394c3[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
-
-2022-07-28 20:23:58,481 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/169.254.197.45:7848>'}.
-
-2022-07-28 20:23:58,481 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
-
-2022-07-28 20:23:58,481 INFO Stop the RaftGroupService successfully.
-
-2022-07-28 20:23:58,482 INFO Shutdown managed channel: 169.254.197.45:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=169.254.197.45:7848}}.
-
-2022-07-28 20:23:58,486 INFO Connection disconnected: /169.254.197.45:7097
-
-2022-07-28 20:23:58,488 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@4adcf48e[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1106].
+2022-07-31 21:30:23,570 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5986410b[Shutting down, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 996].
 
