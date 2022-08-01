@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+/**
+ * @author long
+ */
 @RestController
 public class BookController {
 

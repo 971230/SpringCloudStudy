@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+/**
+ * @author long
+ */
 @Service
 public class BookServiceImpl implements BookService {
 

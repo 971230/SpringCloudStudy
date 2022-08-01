@@ -4,6 +4,9 @@ import com.test.entity.Book;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
+/**
+ * @author long
+ */
 @Mapper
 public interface BookMapper {
 
