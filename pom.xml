@@ -8,10 +8,6 @@
         <module>book-service</module>
         <module>borrow-service</module>
         <module>commons</module>
-        <module>eureka-server</module>
-        <module>hystrix-bashboard</module>
-        <module>gateway-server</module>
-        <module>config-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -52,26 +48,15 @@
         </dependency>
     </dependencies>
 
-    <!--  由于不是所有的子项目都需要用到Mybatis，我们在父项目中只进行版本管理即可  -->
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>2.2.2</version>
+                <version>2.2.0</version>
             </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>2021.0.3</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>

@@ -1,30 +1,8 @@
 server:
-  port: 7072
-
+  port: 8301
 spring:
-  application:
-    name: borrowservice
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloudstudy
-    username: root
-    password: root
-
-eureka:
-  client:
-    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
-    service-url:
-      # 将两个Eureka的地址都加入，这样就算有一个Eureka挂掉，也能完成注册
-      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
-
-# 开启熔断支持
-feign:
-  circuitbreaker:
-    enabled: true
-
-# 配置Actuator添加暴露,这样就可以使用监控面板监视该服务
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+    url: jdbc:mysql://cloudstudy.mysql.cn-chengdu.rds.aliyuncs.com:3306/cloudstudy
+    username: test
+    password: 123456
