@@ -1,0 +1,96 @@
+2022-08-03 20:27:55,743 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-08-03 20:27:55,790 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-08-03 20:27:55,926 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-08-03 20:27:55,931 INFO The number of active nodes increment to 1.
+
+2022-08-03 20:27:56,101 INFO Starts FSMCaller successfully.
+
+2022-08-03 20:27:56,108 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2022-08-03 20:27:56,124 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,126 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-08-03 20:27:56,143 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2022-08-03 20:27:56,147 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=16 ms
+
+2022-08-03 20:27:56,148 INFO Node <naming_persistent_service_v2/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,150 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-08-03 20:27:56,153 WARN RPC server is not started in RaftGroupService.
+
+2022-08-03 20:27:56,154 INFO Start the RaftGroupService successfully.
+
+2022-08-03 20:27:56,167 INFO onLeaderStart: term=1.
+
+2022-08-03 20:27:56,173 INFO The number of active nodes increment to 2.
+
+2022-08-03 20:27:56,210 INFO Starts FSMCaller successfully.
+
+2022-08-03 20:27:56,211 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2022-08-03 20:27:56,212 INFO Node <naming_instance_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,213 INFO Node <naming_instance_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-08-03 20:27:56,215 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2022-08-03 20:27:56,216 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
+
+2022-08-03 20:27:56,216 INFO Node <naming_instance_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,216 WARN RPC server is not started in RaftGroupService.
+
+2022-08-03 20:27:56,216 INFO Start the RaftGroupService successfully.
+
+2022-08-03 20:27:56,217 INFO onLeaderStart: term=1.
+
+2022-08-03 20:27:56,222 INFO The number of active nodes increment to 3.
+
+2022-08-03 20:27:56,230 WARN Channel in TRANSIENT_FAILURE state: 169.254.197.45:7848.
+
+2022-08-03 20:27:56,230 WARN Channel in SHUTDOWN state: 169.254.197.45:7848.
+
+2022-08-03 20:27:56,254 INFO Starts FSMCaller successfully.
+
+2022-08-03 20:27:56,254 WARN No data for snapshot reader C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2022-08-03 20:27:56,255 INFO Node <naming_service_metadata/169.254.197.45:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,256 INFO Node <naming_service_metadata/169.254.197.45:7848> start vote and grant vote self, term=0.
+
+2022-08-03 20:27:56,259 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2022-08-03 20:27:56,259 INFO Save raft meta, path=C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=169.254.197.45:7848, cost time=2 ms
+
+2022-08-03 20:27:56,259 INFO Node <naming_service_metadata/169.254.197.45:7848> become leader of group, term=1, conf=169.254.197.45:7848, oldConf=.
+
+2022-08-03 20:27:56,259 WARN RPC server is not started in RaftGroupService.
+
+2022-08-03 20:27:56,259 INFO Start the RaftGroupService successfully.
+
+2022-08-03 20:27:56,261 INFO onLeaderStart: term=1.
+
+2022-08-03 20:47:12,592 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2022-08-03 20:47:12,592 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2022-08-03 20:47:12,592 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2022-08-03 20:51:31,617 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2022-08-03 20:51:31,618 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-08-03 20:51:31,618 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2022-08-03 20:52:03,951 WARN Unable to fsync directory C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2022-08-03 20:52:03,951 INFO Deleting snapshot C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2022-08-03 20:52:03,952 INFO Renaming C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to C:\Users\long\IdeaProjects\SpringCloudStudy3\springcloudstudy\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+

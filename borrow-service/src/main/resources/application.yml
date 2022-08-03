@@ -1,6 +1,8 @@
 server:
   port: 8301
 spring:
+  application:
+    name: borrow-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cloudstudy
@@ -8,14 +10,23 @@ spring:
     password: root
 security:
   oauth2:
-    client:
+    resource:
+      jwt:
+        key-value: lbwnb #注意这里要跟验证服务器的密钥一致，这样算出来的签名才会一致
+      #client:
       #不多说了
-      client-id: web
-      client-secret: 654321
+      #client-id: web
+      #client-secret: 654321
       #Token获取地址 使用@EnableResourceServer作为资源服务器时不需要这配置
       #access-token-uri: http://localhost:8500/sso/oauth/token
       #验证页面地址 使用@EnableResourceServer作为资源服务器时不需要这配置
       #user-authorization-uri: http://localhost:8500/sso/oauth/authorize
-    resource:
+    #resource:
       #Token信息获取和校验地址
-      token-info-uri: http://localhost:8500/sso/oauth/check_token
+      #token-info-uri: http://localhost:8500/sso/oauth/check_token
+feign:
+  oauth2:
+    #开启Oauth支持，这样就会在请求头中携带Token了
+    enabled: true
+    #同时开启负载均衡支持
+    load-balanced: true

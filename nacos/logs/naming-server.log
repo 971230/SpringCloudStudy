@@ -1,0 +1,108 @@
+2022-08-03 20:27:51,548 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-03 20:27:51,548 WARN Using naming.distro config to replace core.distro config
+
+2022-08-03 20:27:51,663 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-03 20:27:51,663 INFO listen for service meta change
+
+2022-08-03 20:27:51,668 INFO upgrade.state file is not exist
+
+2022-08-03 20:27:55,675 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-03 20:27:55,675 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-03 20:27:55,675 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-03 20:27:55,675 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-03 20:27:56,358 INFO Load instance extension handler []
+
+2022-08-03 20:31:55,850 INFO Client connection 169.254.197.45:52645#true connect
+
+2022-08-03 20:31:55,959 INFO Client connection 169.254.197.45:8201#true connect
+
+2022-08-03 20:31:55,960 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 169.254.197.45:8201#true
+
+2022-08-03 20:31:58,903 INFO Client connection 169.254.197.45:65312#true connect
+
+2022-08-03 20:31:59,044 INFO Client connection 169.254.197.45:8101#true connect
+
+2022-08-03 20:31:59,045 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 169.254.197.45:8101#true
+
+2022-08-03 20:32:02,405 INFO Client connection 169.254.197.45:58021#true connect
+
+2022-08-03 20:32:02,532 INFO Client connection 169.254.197.45:8301#true connect
+
+2022-08-03 20:32:02,532 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, 169.254.197.45:8301#true
+
+2022-08-03 20:41:15,909 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=1}, 169.254.197.45:8301#true
+
+2022-08-03 20:41:44,627 INFO Client connection 169.254.197.45:58021#true disconnect, remove instances and subscribers
+
+2022-08-03 20:41:49,631 INFO Client connection 169.254.197.45:8301#true disconnect, remove instances and subscribers
+
+2022-08-03 20:42:26,320 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+
+2022-08-03 20:43:12,102 INFO Client connection 169.254.197.45:52674#true connect
+
+2022-08-03 20:43:12,241 INFO Client connection 169.254.197.45:8301#true connect
+
+2022-08-03 20:43:12,241 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=0}, 169.254.197.45:8301#true
+
+2022-08-03 20:46:17,426 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=1}, 169.254.197.45:8301#true
+
+2022-08-03 20:46:39,649 INFO Client connection 169.254.197.45:61612#true connect
+
+2022-08-03 20:46:39,791 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=2}, 169.254.197.45:8301#true
+
+2022-08-03 20:46:45,056 INFO Client connection 169.254.197.45:52674#true disconnect, remove instances and subscribers
+
+2022-08-03 21:25:51,778 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 169.254.197.45:8201#true
+
+2022-08-03 21:25:51,856 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=3}, 169.254.197.45:8301#true
+
+2022-08-03 21:25:51,904 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 169.254.197.45:8101#true
+
+2022-08-03 21:26:09,368 INFO Client connection 169.254.197.45:60544#true connect
+
+2022-08-03 21:26:09,432 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 169.254.197.45:8201#true
+
+2022-08-03 21:26:11,220 INFO Client connection 169.254.197.45:58016#true connect
+
+2022-08-03 21:26:11,280 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 169.254.197.45:8101#true
+
+2022-08-03 21:26:13,631 INFO Client connection 169.254.197.45:55677#true connect
+
+2022-08-03 21:26:13,697 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=4}, 169.254.197.45:8301#true
+
+2022-08-03 21:26:23,544 INFO Client connection 169.254.197.45:52645#true disconnect, remove instances and subscribers
+
+2022-08-03 21:26:28,551 INFO Client connection 169.254.197.45:61612#true disconnect, remove instances and subscribers
+
+2022-08-03 21:26:28,551 INFO Client connection 169.254.197.45:65312#true disconnect, remove instances and subscribers
+
+2022-08-03 21:28:30,247 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 169.254.197.45:8201#true
+
+2022-08-03 21:28:30,290 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=true, revision=5}, 169.254.197.45:8301#true
+
+2022-08-03 21:28:30,350 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 169.254.197.45:8101#true
+
+2022-08-03 21:29:03,825 INFO Client connection 169.254.197.45:8101#true disconnect, remove instances and subscribers
+
+2022-08-03 21:29:03,825 INFO Client connection 169.254.197.45:60544#true disconnect, remove instances and subscribers
+
+2022-08-03 21:29:03,825 INFO Client connection 169.254.197.45:58016#true disconnect, remove instances and subscribers
+
+2022-08-03 21:29:03,825 INFO Client connection 169.254.197.45:8201#true disconnect, remove instances and subscribers
+
+2022-08-03 21:29:03,825 INFO Client connection 169.254.197.45:8301#true disconnect, remove instances and subscribers
+
+2022-08-03 21:29:08,833 INFO Client connection 169.254.197.45:55677#true disconnect, remove instances and subscribers
+
+2022-08-03 21:30:26,669 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2022-08-03 21:30:26,669 WARN namespace : public, [DEFAULT_GROUP@@book-service] services are automatically cleaned
+
+2022-08-03 21:30:26,669 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+

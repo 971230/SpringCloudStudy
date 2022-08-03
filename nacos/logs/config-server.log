@@ -1,0 +1,46 @@
+2022-08-03 20:27:45,890 INFO notifyConnectTimeout:200
+
+2022-08-03 20:27:45,894 INFO notifySocketTimeout:8000
+
+2022-08-03 20:27:45,894 INFO isHealthCheck:true
+
+2022-08-03 20:27:45,894 INFO maxHealthCheckFailCount:12
+
+2022-08-03 20:27:45,894 INFO maxContent:10485760
+
+2022-08-03 20:27:52,142 INFO use local db service for init
+
+2022-08-03 20:27:52,943 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2022-08-03 20:27:52,950 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2022-08-03 20:27:53,271 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-03 20:27:53,271 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-03 20:27:53,273 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-03 20:27:53,273 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2022-08-03 20:27:53,273 INFO use StandaloneDatabaseOperateImpl
+
+2022-08-03 20:27:53,348 WARN DumpService start
+
+2022-08-03 20:27:53,349 INFO start clear all config-info.
+
+2022-08-03 20:27:53,351 WARN clear all config-info failed.
+
+2022-08-03 20:27:53,352 WARN clear all config-info-tenant failed.
+
+2022-08-03 20:27:53,396 INFO start clear all config-info-beta.
+
+2022-08-03 20:27:53,396 WARN clear all config-info-beta failed.
+
+2022-08-03 20:27:53,397 WARN clear all config-info-beta-tenant failed.
+
+2022-08-03 20:27:53,406 INFO start clear all config-info-tag.
+
+2022-08-03 20:27:53,407 WARN clear all config-info-tag failed.
+
+2022-08-03 20:27:53,407 WARN clear all config-info-tag-tenant failed.
+
