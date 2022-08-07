@@ -1,5 +1,6 @@
 package com.longj.config;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -58,7 +59,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public TokenStore tokenStore(JwtAccessTokenConverter converter){  //Token存储方式现在改为JWT存储
+    public TokenStore tokenStore(@Qualifier("tokenConverter") JwtAccessTokenConverter converter){  //Token存储方式现在改为JWT存储
         return new JwtTokenStore(converter);  //传入刚刚定义好的转换器
     }
 }
